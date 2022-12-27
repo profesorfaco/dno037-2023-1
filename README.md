@@ -37,7 +37,7 @@ Cada estudiante en este OPR debe contar con:
 
 **Según [Calendario de Actividades Académicas y Estudiantiles 2023](https://registrosacademicos.uc.cl/wp-content/uploads/2022/11/Calendario-Academico-2023.pdf), las clases del primer semestre comienzan el día lunes 6 de marzo y finalizan el viernes 30 de junio**. 
 
-Considerando los días **miércoles** entre 8 de marzo y 28 de junio, proyectamos **el siguiente clase a clase:**
+Considerando los días **miércoles** entre 8 de marzo y 28 de junio, resulta **el siguiente clase a clase:**
 
 [Clase 01 → 08/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-01) → HTML5 + CSS3 + p5.js
 
