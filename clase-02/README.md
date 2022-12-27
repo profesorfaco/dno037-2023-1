@@ -32,6 +32,12 @@ Con el DOM podemos manipular una página así como cuando manipulamos una imagen
 
 Estirando la analogía: Podríamos encontrar inconcruencias en los despliegue de (1) código fuente de la página y (2) elementos de la página. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con lo que tenemos a la vista.
 
+Para que esta diferencia quede muy clara, pueden examinar [la página preparada para esta clase](https://profesorfaco.github.io/dno037-2023/clase-02/) y notar que no incluye ninguno de los contenidos que pueden verse cada vez que se carga, porque el contenido depende de dos consultas programadas:
+
+- Consulta por el momento en que se carga la página, con el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
+
+- Consulta a un JSON que está en línea, con la función [loadJSON() de p5.js](https://p5js.org/es/reference/#/p5/loadJSON)
+
 - - - - - - - - - - - - -
 
 ### Práctica
