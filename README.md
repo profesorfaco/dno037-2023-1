@@ -106,7 +106,7 @@ Esta modalidad NO aplica en:
 
 ### Referencias bibliográficas
 
-[O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket References". En el desarrollo del Optativo, podrían consultar: 
+[O'Reilly](http://shop.oreilly.com/) ofrece un par de colecciones que podrían servir de referencia: "The Good Parts" y "Pocket Reference". En el desarrollo del Optativo, podrían consultar: 
 
 - Crockford, D. (2008). *JavaScript: The Good Parts: Unearthing the Excellence in JavaScript*
 - Meyer, E.A. (2018). *CSS Pocket Reference: Visual Presentation for the Web*
@@ -122,5 +122,6 @@ Esta modalidad NO aplica en:
 
 - [Code! Programming with p5.js](https://youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [JavaScript Para Gatos](https://jsparagatos.com/)
+- [Tecnología para desarrolladores web | MDN](https://developer.mozilla.org/es/docs/Web)
 
 Se agregarán más referencias en el `README.md` de cada clase.
