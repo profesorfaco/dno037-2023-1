@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+        <title>&#129488; DNO037</title>
+        <!--
+        Esto es un comentario de HTML. No es necesario que lo borres.
+        Si arriba, dentro de <title></title>, quieres otro emoji, búscarlo en 
+        - https://www.w3schools.com/charsets/ref_emoji.asp
+        - https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+        Usa la columna "Dec" y reemplaza solo el número, manteniendo el "&#" que le antecede.
+        -->
+    </head>
+    <body>
+        <header>
+            <p><span id="hora"></span> hrs.</p>
+        </header>
+        <main></main>
+        <footer>
+            <div id="vinculos"><p><a href="#">NOMBRE APELLIDO</a> <a href="https://github.com/profesorfaco/dno037-2023#readme">DNO37</a></p></div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            // pregunto por el momento de la carga (date) y me quedo sólo con la hora (getHours)
+            var laHora = new Date().getHours();
+            // pongo la hora en el span con identidad hora
+            document.querySelector("#hora").innerHTML = laHora;
+            // creo una variable
+            var elSaludo;
+            // según la hora, cambio lo contenido por la variable recién creada
+            if (5 < laHora && laHora < 12) {
+                elSaludo = "¡Buenos días! ";
+            } else if (11 < laHora && laHora < 21) {
+                elSaludo = "¡Buenas tardes! ";
+            } else {
+                elSaludo = "¡Buenas noches! ";
+            }
+            //creo otra variable
+
+            var data;
+
+            function preload() {
+                data = loadJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json");
+            }
+
+            var loPrincipal = document.querySelector("main");
+
+            var x;
+
+            function setup() {
+                noCanvas();
+                x = Math.round(random(0,15));
+                createElement("h1", elSaludo).parent(loPrincipal).id("contenido");
+                createSpan("¿Sabía usted que la región " + data[x].region + " tiene " + data[x].provincias.length + " provincias?").parent("contenido");
+            }
+        </script>
+    </body>
+</html>
