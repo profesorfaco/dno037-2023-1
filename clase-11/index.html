@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios, segunda versión remota" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037vR2 &#127959;</title>
+    </head>
+    <body>
+        <header class="container-fluid">
+            <div class="row">
+                <div class="col-6 text-center"><h1 class="fs-4 pt-4 text-white">Encuentros cercanos del tercer tipo</h1></div>
+                <div class="col text-center"><h2 class="fs-5 pt-4 text-white-50">Responsive</h2></div>
+                <div class="col text-center"><h2 class="fs-5 pt-4 text-white-50">Mobile-first</h2></div>
+            </div>
+        </header>
+        <aside class="container-fluid">
+            <div class="row pt-4 pb-5 mx-5">
+                <div class="col-sm-6 col-lg-3 p-4">
+                    <a target="_blank" href="https://cannesprlions.com/en/lionsnews/new-uses/" rel="noopener noreferrer">
+                        <img src="images/new-uses.jpg" class="shadow img-fluid" onmousemove="primeraRevista()" onmouseleave="nada()" />
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 p-4">
+                    <a target="_blank" href="https://cannesprlions.com/en/lionsnews/community/" rel="noopener noreferrer">
+                        <img src="images/community.jpg" class="shadow img-fluid" onmousemove="segundaRevista()" onmouseleave="nada()" />
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 p-4">
+                    <a target="_blank" href="https://cannesprlions.com/en/lionsnews/human-power/" rel="noopener noreferrer">
+                        <img src="images/human-power.jpg" class="shadow img-fluid" onmousemove="terceraRevista()" onmouseleave="nada()" />
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-3 p-4">
+                    <a target="_blank" href="https://cannesprlions.com/en/lionsnews/mismatches/" rel="noopener noreferrer">
+                        <img src="images/mismatches.jpg" class="shadow img-fluid" onmousemove="cuartaRevista()" onmouseleave="nada()" />
+                    </a>
+                </div>
+            </div>
+        </aside>
+        <main class="container-fluid bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-sm-9 col-md-8 col-lg-7 mx-auto my-5">
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis justo non leo elementum venenatis quis vitae purus. Vivamus eget purus dolor. Suspendisse potenti. Sed imperdiet cursus dolor, nec venenatis est
+                            condimentum ut. Integer luctus, ipsum sit amet vulputate porta, mauris nulla volutpat lorem, sed sodales augue diam sit amet lectus. Donec orci est, placerat non risus nec, accumsan finibus ex. Class aptent
+                            taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ultricies lorem in leo auctor fringilla.
+                        </p>
+
+                        <p>
+                            Proin lorem leo, pretium et purus eleifend, tempor accumsan purus. Mauris commodo mollis est accumsan maximus. Praesent posuere tellus quis lacus venenatis posuere. Sed vitae iaculis arcu. Phasellus ac nunc dui.
+                            Cras posuere lacus diam, suscipit interdum sapien tempor vel. Ut at nisl ex. Pellentesque vel odio et arcu semper semper vel non diam.
+                        </p>
+
+                        <div class="btn-group w-100" role="group" aria-label="Basic example">
+
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modalUno">Primer modal</button>
+
+                            <button type="button" class="btn btn-sm btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#modalDos">Segundo modal</button>
+
+                        </div>
+
+                        <div class="row g-3 row-cols-2 row-cols-sm-3 row-cols-lg-6 my-4" id="logos"></div>
+
+<div class="ratio ratio-1x1">
+
+<iframe src="https://www.youtube.com/embed/xXWgXiODqLo" title="YouTube video player" allowfullscreen></iframe>
+
+</div>
+
+
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade my-5" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://picsum.photos/500/300?random=1" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/500/300?random=2" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://picsum.photos/500/300?random=3" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <p class="small text-muted">
+                            Sed ex urna, rhoncus in enim eget, vestibulum varius risus. Quisque malesuada a lorem vitae vestibulum. Phasellus volutpat lorem enim, ac facilisis sem fringilla ac. Suspendisse dignissim, massa eu vehicula
+                            luctus, leo tortor consequat magna, a consectetur quam quam quis diam. Suspendisse aliquet dolor eu cursus fringilla. Vivamus ut est tincidunt, porttitor lacus quis, suscipit tellus. Aenean lobortis est fermentum
+                            imperdiet sodales. Nullam volutpat, erat a porta malesuada, mauris diam tincidunt nibh, sed posuere mi dui auctor purus. Aenean a tincidunt nisi. Quisque augue massa, accumsan non magna eget, eleifend semper
+                            erat. In ac sapien sed turpis finibus molestie.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="container">
+            <div class="row">
+                <div class="col-10 col-sm-9 col-md-8 col-lg-7 mx-auto pt-4 pb-2">
+                    <p class="text-white small d-flex justify-content-between align-items-center"><a href="#" class="link-light">Nombre Apellido</a> <a href="#" class="link-light">DNO037</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <!--estos son mis modales-->
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalUno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content shadow">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title" id="exampleModalLabel">Soy el primero</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit dictum tortor, id feugiat risus viverra id. Donec sit amet auctor urna. Curabitur sollicitudin porta nulla ut rutrum. Proin vel dolor egestas, vehicula dui in, eleifend nibh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalDos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content shadow">
+                    <div class="modal-header bg-light">
+                        <h5 class="modal-title" id="exampleModalLabel">Soy el segundo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla suscipit dictum tortor, id feugiat risus viverra id. Donec sit amet auctor urna. Curabitur sollicitudin porta nulla ut rutrum. Proin vel dolor egestas, vehicula dui in, eleifend nibh.</p>
+                        <table class="table table-sm table-borderless align-middle">
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script>
+            function primeraRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#734567";
+            }
+            function segundaRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#5790A3";
+            }
+            function terceraRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#6A5D9C";
+            }
+            function cuartaRevista() {
+                document.getElementsByTagName("body")[0].style.background = "#117C60";
+            }
+            function nada() {
+                document.getElementsByTagName("body")[0].style.background = "#222";
+            }
+            // Hemos usando el forEach(), que en javascript es un jovencito comparado con el for(){}
+            for (x = 1; x < 7; x++) {
+                document.querySelector("#logos").innerHTML += '<div class="col"><img src="images/logo-' + x + '.png" class="w-100"></div>';
+            }
+
+            var datos = [
+                {nombre:"Lala", exito: 30},
+                {nombre:"Po", exito: 20},
+                {nombre:"Tinkiwinki", exito: 50},
+                {nombre:"Dipsi", exito: 10}
+            ];
+
+            datos.forEach(x => {
+                console.log(x.nombre + " " + x.exito + "%");
+                document.getElementsByTagName("tbody")[0].innerHTML += '<tr><td class="w-25">'+x.nombre+'</td><td><div class="progress"><div class="progress-bar" role="progressbar" style="width: '+x.exito+'%;" aria-valuenow="'+x.exito+'" aria-valuemin="0" aria-valuemax="100">'+x.exito+'%</div></div></td></tr>';
+            });
+
+
+        </script>
+    </body>
+</html>

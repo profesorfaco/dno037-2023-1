@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #556;
+    background: linear-gradient(#eee,#bbb);
+    font-weight: 400;
+}
+
+canvas{
+    width: 90vw;
+    margin: 10vh auto auto auto;
+}
+
+canvas#miDona{
+    width: 40vw;
+}
+
+select{
+    top: 1rem;
+    right: 1rem;
+    position: absolute;
+}

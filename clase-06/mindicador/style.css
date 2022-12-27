@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    color: #ddd;
+    background: #556;
+    font-weight: 400;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover, a.active {
+    color: #fff;
+    transition: color ease .25s;
+}
+
+div.container {
+    padding: 2vh 3rem;
+    margin: 2vh;
+    background: linear-gradient(#445,#223);
+    box-shadow: 0 0 1rem #223;
+    border-radius: 0.5rem;
+}
+
+
+nav {
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    font-weight: 600;
+}
+
+footer {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+}
+
+nav p, footer p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    opacity: 0.75;
+}
+
+nav p{
+    font-size: 90%;
+    letter-spacing: 0.025rem;    
+}
+
+footer p{
+    font-size: 75%;
+    letter-spacing: 0.075rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    height: 75vh;
+    min-height: 500px;
+    text-align: left;
+}
+
+main div, main canvas {
+    width: 100%;
+    margin:auto;
+    line-height: 1.5;
+}

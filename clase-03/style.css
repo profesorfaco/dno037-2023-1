@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+html, body{
+     min-height: 100%;
+}
+
+body {
+    font-family: 'Farro', sans-serif;
+    color: #37474f;
+    background: #eceff1;
+}
+
+
+header, footer {
+    width: 90vw;
+    margin: 0;
+    padding: 5vh 5vw;
+}
+
+main {
+    width: 90vw;
+    margin: 0;
+    padding: 0 5vw;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    line-height: 1.2;
+    font-size: calc(2rem + 1vw);
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+h1 span{
+    color: #263238;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+@media (min-width:599px){
+
+    p {
+        max-width:600px;
+    }
+
+}
+
+
+a {
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+    transition: all ease .5s;
+}
+
+a:hover {
+    color: #000;
+    opacity: 1;
+    transition: all ease .5s;
+}
+
+footer div a {
+    display: block;
+    background: #b0bec5;
+    box-shadow: 1px 1px 3px #cfd8dc;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+footer div a#descarga{
+    padding-left:2rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.002 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-12a2 2 0 0 1-2-2V3zm1 9v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12zm5-6.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/></svg>');
+    background-repeat:no-repeat;
+    background-position: 10% center;
+}
+
+footer div#controles {
+    background: #fff;
+    box-shadow: 1px 1px 3px #cfd8dc;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+}
+
+footer div#controles input[type="color"] {
+    border: none;
+    background: #fff;
+    padding: 3px 5px;
+    width: 2rem;
+}
+
+footer div#controles input[type="range"] {
+    width: 4rem;
+    margin: 0 0.5rem;
+}
+
+footer div a#borra{
+    padding-left:2rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" viewBox="0 0 16 16"><path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828l6.879-6.879zm2.121.707a1 1 0 0 0-1.414 0L4.16 7.547l5.293 5.293 4.633-4.633a1 1 0 0 0 0-1.414l-3.879-3.879zM8.746 13.547 3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293l.16-.16z"/></svg>');
+      background-repeat:no-repeat;
+    background-position: 10% center;
+}

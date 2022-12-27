@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Nombre Apellido" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <title>DNO037</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <p><a href="index.html">Portada</a> <a href="page.html?x=1">Talca</a> <a href="page.html?x=2">Paris</a> <a href="page.html?x=3">Londres</a></p>
+            </nav>
+            <main>
+                <div>
+                    <h1>WeatherBot</h1>
+                </div>
+                <div>
+                    <img />
+                </div>
+            </main>
+            <footer>
+                <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js" integrity="sha512-NxocnqsXP3zm0Xb42zqVMvjQIktKEpTIbCXXyhBPxqGZHqhcOXHs4pXI/GoZ8lE+2NJONRifuBpi9DxC58L0Lw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            var url = new URLSearchParams(window.location.search);
+
+            var seleccionada = url.get("x");
+
+            var data;
+
+            var texto = document.querySelector("main").getElementsByTagName("div")[0];
+
+            var imagen = document.querySelector("main").getElementsByTagName("div")[1].getElementsByTagName("img")[0];
+
+            if (seleccionada == 1) {
+                function preload() {
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?q=Talca,cl&units=metric&appid=PongaAquiSuAPIKey&lang=es");
+                }
+            } else if (seleccionada == 2) {
+                function preload() {
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&appid=PongaAquiSuAPIKey&lang=es");
+                }
+            } else if (seleccionada == 3) {
+                function preload() {
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&appid=PongaAquiSuAPIKey&lang=es");
+                }
+            } else {
+                data = "Algo salió mal";
+            }
+
+            function setup() {
+                noCanvas();
+
+                var lugar;
+
+                switch (data.name) {
+                    case "London":
+                        lugar = "en Londres";
+                        break;
+                    case "Talca":
+                        lugar = "en Talca";
+                        break;
+                    case "Paris":
+                        lugar = "en Paris";
+                        break;
+                    default:
+                        lugar = "por allá";
+                }
+
+                if (data != "Algo salió mal") {
+                    createElement("p", data.weather[0].description + " " + lugar + ", con una temperatura de " + Math.round(data.main.temp) + "ºC.").parent(texto);
+                    console.log(data);
+                    //vamos a buscar un ícono provisorio en https://openweathermap.org/weather-conditions
+                    imagen.setAttribute("src", "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@4x.png");
+
+                    if (seleccionada == 1) {
+                        selectAll("nav a")[1].addClass("active");
+                    } else if (seleccionada == 2) {
+                        selectAll("nav a")[2].addClass("active");
+                    } else {
+                        selectAll("nav a")[3].addClass("active");
+                    }
+                } else {
+                    createElement("p", data).parent(texto);
+                }
+            }
+        </script>
+    </body>
+</html>

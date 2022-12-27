@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037</title>
+    </head>
+    <body class="portada">
+        <div class="container">
+            <header>
+                <h1>USGS Earthquakes</h1>
+                <h2>M4.5+ Earthquakes past 7 days. Updated every minute</h2>
+            </header>
+            <main>
+                <section></section>
+            </main>
+            <footer>
+                <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+        <select name="select" id="opciones">
+            <option>All</option>
+            <option value="Chile">Chile</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Japan">Japan</option>
+            <option value="Philippines">Philippines</option>
+        </select>
+        <!--Primero vamos a buscar la versión más reciente de jQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(function() {
+                $.getJSON("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson", function (data) {
+                    console.log(data);
+                    //una pequeña función para convertir un dato de más abajo
+                    function t(unix_timestamp) {
+                        var date = new Date(unix_timestamp);
+                        return date;
+                    }
+                    //un forEach para construir cada temblor
+                    data.features.forEach(function (temblor, i) {
+                        var articuloTipo;
+                        //algunas alternativas de contenido para la variable articuloTipo
+                        if (temblor.properties.place.includes("Chile")) {
+                            articuloTipo = '<article class="cl">';
+                        } else if (temblor.properties.place.includes("Indonesia")) {
+                            articuloTipo = '<article class="id">';
+                        } else if (temblor.properties.place.includes("Japan")) {
+                            articuloTipo = '<article class="jp">';
+                        } else if (temblor.properties.place.includes("Philippines")) {
+                            articuloTipo = '<article class="ph">';
+                        } else {
+                            articuloTipo = '<article class="etc">';
+                        }
+                        //aplicación del articuloTipo y la pequeña función
+                        $("section").append(articuloTipo + "<h2>" + temblor.properties.mag.toFixed(1) + "</h2><p>" + temblor.properties.place + "</p><p><a href='" + temblor.properties.url + "' target='_blank'>" + t(temblor.properties.time) + "</a></p></article>");
+                    });
+                    //algo más para operar con el menú
+                    var valor;
+                    $("#opciones").change(function () {
+                        valor = $("select").val();
+                        if (valor == "Chile") {
+                            $(".cl").fadeTo("slow", 1);
+                            $(".jp, .id, .ph, .etc").fadeTo("slow", 0.1);
+                        } else if (valor == "Indonesia") {
+                            $(".id").fadeTo("slow", 1);
+                            $(".cl, .jp, .ph, .etc").fadeTo("slow", 0.1);
+                        } else if (valor == "Japan") {
+                            $(".jp").fadeTo("slow", 1);
+                            $(".cl, .id, .ph, .etc").fadeTo("slow", 0.1);
+                        } else if (valor == "Philippines") {
+                            $(".ph").fadeTo("slow", 1);
+                            $(".cl, .id, .jp,.etc").fadeTo("slow", 0.1);
+                        } else {
+                            $(".cl, .id, .jp, .ph, .etc").fadeTo("slow", 1);
+                        }
+                    });
+                }); // cierro $.getJSON({})
+            }); //cierro ready(function(){})
+        </script>
+    </body>
+</html>
