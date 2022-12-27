@@ -58,7 +58,7 @@ Para continuar reconociendo los lenguajes mencionados más arriba, y seguir apro
 
 **Llegado a este punto, es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio** 
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de este sitio web](https://profesorfaco.github.io/dno037-2023/clase-01).
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), **[su versión ajustada de este sitio web](https://profesorfaco.github.io/dno037-2023/clase-01)**.
 
 El ejercicio completo puede ser evaluado con:
 
