@@ -8,7 +8,7 @@ Escribir "código fuente" implica describir y/o programar.
 
 Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente" (puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)).
 
-El "editor de código fuente" nos dará indicaciones para poder escribir nuestro "código fuente" con:
+Los colores en el editor de código fuente "nos darán indicaciones" para poder escribir nuestro código fuente con:
 
 - **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página). HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
@@ -18,7 +18,7 @@ El "editor de código fuente" nos dará indicaciones para poder escribir nuestro
 
 Los lenguajes de descripción pueden dominarse en un menor tiempo que los lenguajes de programación; HTML puede dominarse tan pronto se memorizan [los elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element) y sus [atributos](https://developer.mozilla.org/es/docs/Web/HTML/Attributes); CSS podría exigir algo más que HTML, porque implica memorizar propiedades, valores y sus unidades, además de [los selectores](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors) (para seleccionar elementos del HTML por tipo, atributo, identidad, clase, pseudoclase y un largo etcétera). 
 
-Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo; una cosa es escribir descriptores y otra es estructurar instrucciones ajustadas a circunstancias y objetivos:
+Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo; una cosa es describir qué mostrar y cómo mostrarlo, y otra es estructurar instrucciones ajustadas a circunstancias y objetivos:
 
 ![meme](https://user-images.githubusercontent.com/7999767/156002975-2dfbf580-f6e2-4bd8-8e40-7110457a4cb4.png)
 
@@ -38,7 +38,7 @@ Allí podemos ver la estructura típica de toda página HTML:
 </html>
 ```
 
-Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/style.css) que revisaremos luego:
+Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/style.css):
 
 ```
 <link href="style.css" rel="stylesheet" />
@@ -52,11 +52,13 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-El contenido de la variable se aprovecha para programar algo sencillo, a través de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web. Según la analogía de más arriba, esta es como "una selección de ingredientes listos para poder preparar determinado tipo de comida", que podemos encontrar en https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js
+El contenido de la variable se aprovecha para programar algo sencillo, a través de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web. Según la analogía de más arriba, esta es como "una selección de ingredientes listos para poder preparar determinado tipo de comida", que podemos encontrar en https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js
 
-Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/page.html), donde hay mucho más líneas de código contenidas entre etiquetas de script (`<script></script>`).
+Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/page.html), donde se programa otra cosa sencilla con p5.js (`<script></script>`).
 
-**Llegado a este punto, es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio; el ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de un sitio web](https://profesorfaco.github.io/dno037-2023/clase-01).**
+**Llegado a este punto, es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio** 
+
+El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), [su versión ajustada de este sitio web](https://profesorfaco.github.io/dno037-2023/clase-01).
 
 El ejercicio completo puede ser evaluado con:
 
