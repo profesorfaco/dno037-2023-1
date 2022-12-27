@@ -5,38 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios" />
         <link href="style.css" rel="stylesheet" />
-        <title>DNO037</title>
+        <title>&#127891; DNO037</title>
         <!--
         Esto es un comentario de HTML. No es necesario que lo borres.
-        Si arriba, dentro de <title></title>, quieres un emoji, búscarlo en 
+        Si arriba, dentro de <title></title>, quieres otro emoji, búscarlo en 
         - https://www.w3schools.com/charsets/ref_emoji.asp
         - https://www.w3schools.com/charsets/ref_emoji_smileys.asp
-        Usa el número de columna "Dec", y súmale un "&#" al principio.
+        Usa la columna "Dec" y reemplaza solo el número, manteniendo el "&#" que le antecede.
         -->
     </head>
     <body>
-        <!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header - Después de la lectura, borra este comentario -->
-        <header>
-            <h1>Nombre Apellido</h1>
-        </header>
-        <!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/main - Después de la lectura, borra este comentario -->
+
         <main>
+            <h1>Nombre Apellido</h1>
             <p>Preséntate en este párrafo, compartiendo la razón por la que tomas este OPR. Intenta ser breve. Este párrafo tiene treinta palabras. Tú puedes agregar más, pero evita superar las cincuenta.</p>
         </main>
-        <!-- Lee https://developer.mozilla.org/es/docs/Web/HTML/Elemento/footer - Después de la lectura, borrar este comentario -->
-        <footer>
-            <div></div>
-            <div></div>
-            <div id="next"></div>
-        </footer>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js" integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <div id="next"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
         <script>
             // Esto es una línea de comentario en JAVASCRIPT
             var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
             function setup() {
-                var p = random(palabras);
-                console.log(p);
-                createA("page.html", p).parent("next");
+                var palabra = random(palabras);
+                createA("page.html?data="+palabra, palabra).parent("next");
                 noCanvas();
             }
             /* 
