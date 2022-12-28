@@ -30,7 +30,7 @@ Aquí conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](h
 
 Con el DOM podemos manipular una página así como cuando manipulamos una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. 
 
-Estirando la analogía: **Podríamos encontrar inconcruencias entre** los despliegue de **código fuente de la página** y **elementos de la página**. Esto es así porque en el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con lo que tenemos a la vista.
+Por la manipulación del DOM **podríamos encontrar inconcruencias entre** los despliegue de **código fuente de la página** y **elementos de la página**. Estirando la analogía: En el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con lo que tenemos a la vista.
 
 Para que esta diferencia quede muy clara, pueden examinar [la página preparada para esta clase](https://profesorfaco.github.io/dno037-2023/clase-02/) y notar que no incluye ninguno de los contenidos que pueden verse cada vez que se carga, porque el contenido depende de dos consultas programadas:
 
