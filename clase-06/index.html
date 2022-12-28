@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+            integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Charts.js</title>
+    </head>
+    <body>
+        <header>
+            <h1>Charts.js</h1>
+            <h2>Open source HTML5 Charts for your website</h2>
+        </header>
+        
+        <main>
+            <p>
+                Para el gráfico que sigue, usamos datos de <a href="https://swapi.dev/api/people/?page=1&format=json">un JSON</a> donde se describen a 10 personajes de StarWars. Ahora estamos probando
+                <a href="https://www.chartjs.org/">Chart.js v3</a>, una biblioteca de JavaScript distinta de p5.js, por lo que ya NO podemos tomar tales datos con un <a href="https://p5js.org/es/reference/#/p5/loadJSON">loadJSON()</a>.
+                Desde hoy usaremos la <a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch">API Fetch</a> de JavaScript.
+            </p>
+
+            <canvas id="starwars" width="400" height="200"></canvas>
+
+            <p>
+                Para el gráfico que sigue usamos <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson">un GeoJSON</a> donde se describen todos los movimientos telúricos sobre 4.5M registrados por la USGS en
+                el último mes. En este caso también tomamos los datos con la API Fetch de JavaScript. Se programa una consulta a cada registro de movimiento telúrico para contar los que incluyan "Chile" o "Japan" en su denominación (que
+                refiere a su epicentro)
+            </p>
+
+            <div>
+                <canvas id="earthquakes" width="400" height="400"></canvas>
+            </div>
+
+            <p>
+                Para el gráfico que sigue usamos <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson">un CSV</a> con las cifras nacionales y oficiales relacionadas con el Covid-19. En este caso también
+                tomamos los datos con la API Fetch de JavaScript.
+            </p>
+
+            <canvas id="covid" width="400" height="200"></canvas>
+
+            <p>
+                Para el gráfico que sigue, que es el último, aprovechamos <a href="https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-06/zonal_annual_means.csv">otro CSV</a>, al que llegamos gracias a uno de los videos de Daniel Shiffman: <a href="https://data.giss.nasa.gov/gistemp/ ">Zonal annual means, 1880-present, updated through most recent complete year</a>.
+            </p>
+
+            <canvas id="calentamiento" width="400" height="300"></canvas>
+
+        </main>
+
+        <footer></footer>
+        <script src="script-1.js"></script>
+        <script src="script-2.js"></script>
+        <script src="script-3.js"></script>
+        <script src="script-4.js"></script>
+    </body>
+</html>
