@@ -15,7 +15,7 @@ html, body{
 body {
     font-family: 'Farro', sans-serif;
     color: #37474f;
-    background: #eceff1;
+    background: #efebe9;
 }
 
 
@@ -42,48 +42,34 @@ footer {
 }
 
 
-h1 {
-    line-height: 1.2;
-    font-size: calc(2rem + 1vw);
-    font-weight: 900;
-    letter-spacing: 0.1rem;
-}
-
-h1 span{
-    color: #263238;
-}
-
-p {
-    line-height: 1.5;
-    font-size: 1.25rem;
-}
-
-@media (min-width:599px){
-
-    p {
-        max-width:600px;
-    }
-
-}
-
-
 a {
-    color: #000;
+    color: #1b0000;
     opacity: 0.8;
     text-decoration: none;
     transition: all ease .5s;
 }
 
 a:hover {
-    color: #000;
+    color: #1b0000;
     opacity: 1;
     transition: all ease .5s;
 }
 
+h1 {
+    line-height: 1.2;
+    font-size: calc(1.5rem + 1.5vw);
+    text-align: center;
+    color: #3e2723;
+}
+
+h1  a{
+    text-decoration: underline;
+}
+
 footer div a {
     display: block;
-    background: #b0bec5;
-    box-shadow: 1px 1px 3px #cfd8dc;
+    background: #d7ccc8;
+    box-shadow: 1px 1px 3px #bcaaa4;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     font-size: 1rem;
