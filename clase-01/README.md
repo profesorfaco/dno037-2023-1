@@ -56,7 +56,7 @@ El contenido de la variable se aprovecha para programar algo sencillo, a través
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/page.html), donde se programa otra cosa sencilla con p5.js (`<script></script>`).
 
-**Llegado a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023/clase-01) al editor de código fuente en su computador.** 
+**Llegando a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023/clase-01) al editor de código fuente en su computador.** 
 
 Será necesario que tomen tales documentos y hagan los ajustes que el profesor indicará, por lo que conviene poner atención y presentar sus dudas de inmediato (presentarlas al profesor, no a compañeros, para no quitarles la posibilidad de poner atención).
 
