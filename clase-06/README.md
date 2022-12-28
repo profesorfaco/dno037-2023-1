@@ -10,8 +10,6 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 - [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
 
-- [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
-
 - - - - - - - - 
 
 En las variables podemos almacenar valores numéricos. Estos valores pueden ser visualizados mediante gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en una de las bibliotecas de JavaScript recién mencionadas:
@@ -21,7 +19,7 @@ En las variables podemos almacenar valores numéricos. Estos valores pueden ser 
 Para poder usarlo corresponde reconocer sus partes: 
 
 ```
-var contexto = document.getElementById('nombre').getContext('2d');
+var contexto = document.getElementById('nombre');
 var configuracion = {type: '…', data: {…}, options: {…}}
 var chart = new Chart(contexto, configuracion);
 ```
@@ -33,7 +31,7 @@ var chart = new Chart(contexto, configuracion);
 Nos referimos a tres partes. No se trata de tres pasos de una secuencia en un único sentido; también sería válido escribir:
 
 ```
-new Chart(document.getElementById('nombre').getContext('2d'), {type: '…', data: {…}, options: {…}});
+new Chart(document.getElementById('nombre'), {type: '…', data: {…}, options: {…}});
 ```
 
 Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofrecen en línea. 
@@ -187,6 +185,8 @@ visualizacion().catch((error) => console.error(error));
 Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata de un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
 
 Parte de lo recién presentado queda mejor explicado en [el segundo de los videos de Daniel Shiffman](https://youtu.be/RfMkdvN-23o?t=172) enlistados más arriba.
+
+Para mencionar una alternativa a fetch de un CSV, podría aprovecharse la biblioteca [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*.
 
 - - - - - - -
 
