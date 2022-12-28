@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* { margin: 0; padding: 0; }
+
+html, body { min-height: 100%; }
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #222333;
+    background: #fff;
+}
+
+main {
+    width: 90vw;
+    margin: 0;
+    padding: 5vw;
+}
+
+h1 {
+    line-height: 1;
+    font-size: calc(1.25rem + 1.25vw);
+    margin:1rem 0 2rem -0.1rem;
+}
+
+p { line-height: 1.5; font-size: calc(1rem + 0.5vw); margin-top: calc(0.5rem + 0.25vw)}
+
+@media (min-width:599px){ p { max-width:600px; } }
+
+a {
+    color: #000;
+    opacity: 0.75;
+    text-decoration: none;
+    transition: all ease .3s;
+}
+
+a:hover {
+    color: #000;
+    opacity: 1;
+    transition: all ease .2s;
+}
+
+div a {
+    background: #ccc;
+    box-shadow: 1px 1px 3px #aaa;
+    padding: 0.4rem 1rem;
+    border-radius: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+div#next a{
+    position: absolute;
+    bottom:3rem;
+    right:3rem;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>');
+    background-repeat:no-repeat;
+    background-position: 95% center;
+    padding-right:2.5rem;
+}

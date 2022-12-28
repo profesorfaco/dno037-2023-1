@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037</title>
+    </head>
+    <body>
+
+        <main>
+            <h1>¿Quieres dibujar?</h1>
+            <p>Te desafío a dibujar un Digimon en la siguiente página.</p> 
+            <p>¡Pero tienes que dibujarlo de memoria! Una vez aceptes el desafío, no podrás volver a verlo.</p>
+            <p>Cuando tengas listo tu dibujo, me lo podrías enviar para que yo arme una galería de resultados.</p>
+        </main>
+
+        <div id="next"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            var data, digimon, x;
+            var seleccion = [];
+            function preload(){
+                data=loadJSON("https://digimon-api.vercel.app/api/digimon");
+            }
+            function setup() {
+                digimon = Object.values(data);
+                digimon.forEach(d => {
+                    if(d.level == "In Training" || d.level == "Rookie" || d.level == "Fresh"){
+                    seleccion.push(d);
+                    }
+                });
+                console.log(seleccion);
+                x = Math.round(random(0,seleccion.length-1));
+                createA("page.html?data="+seleccion[x].name, "Si, quiero dibujar a "+ seleccion[x].name).parent("next");
+                if(windowWidth > 599){
+                    createImg(seleccion[x].img,'the p5 magenta asterisk').position(windowWidth-360, 60).style('z-index','-1');
+                } else {
+                    createImg(seleccion[x].img,'the p5 magenta asterisk').position(20, windowHeight-400).style('z-index','-1');
+                }
+                noCanvas();
+            }
+        </script>
+    </body>
+</html>
