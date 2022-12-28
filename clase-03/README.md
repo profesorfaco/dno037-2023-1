@@ -120,7 +120,7 @@ En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p
 ]
 ```
 
-Si analizamos este JSON como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), podemos notar que todo es contenido por un paréntesis cuadrado, por lo que se trata de un arreglo. Los elementos de este arreglo, que están separados por coma, son contenidos por paréntesis de llave, por lo que cada uno de sus 16 elementos es un objeto. En los objetos vemos estos tres pares, con un tercero que contiene su arreglo para desplegar más información (que en este caso omitimos).
+Si analizamos este JSON como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), podemos notar que todo es contenido por un paréntesis cuadrado, por lo que se trata de un arreglo. Los elementos de este arreglo, que están separados por coma, son contenidos por paréntesis de llave, por lo que cada uno de sus 16 elementos es un objeto. En los objetos vemos estos tres pares, con un tercero que contiene su arreglo para desplegar más información (que, por espacio, se omite).
 
 - - - - - - - - - - - - -
 
