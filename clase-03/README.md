@@ -36,7 +36,7 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
 
-En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://swapi.dev/api/people/?format=json) que tenía la siguiente estructura:
+En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json) que tenía la siguiente estructura:
 
 ```
 [
@@ -120,7 +120,7 @@ En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p
 ]
 ```
 
-Si analisamos este JSON como notación de JavaScript, tendríamos que notar que todo es contenido por paréntesis cuadrados, por lo que se trata de un arreglo. Los elementos de cada arreglo, que están separados por coma, son contenidos por paréntesis de llave, por lo se trata de objetos. En los objetos vemos estos pares. Para el par donde el denominador es provincia, lo que tenemos es otro arreglo.
+Si analizamos este JSON como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), podemos notar que todo es contenido por un paréntesis cuadrado, por lo que se trata de un arreglo. Los elementos de este arreglo, que están separados por coma, son contenidos por paréntesis de llave, por lo que cada uno de sus 16 elementos es un objeto. En los objetos vemos estos tres pares, con un tercero que contiene su arreglo para desplegar más información (que en este caso omitimos).
 
 - - - - - - - - - - - - -
 
