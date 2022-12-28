@@ -14,8 +14,6 @@ Nos queda por explorar:
 
 - [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
 
-- [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
-
 - - - - - - - - 
 
 En la clase de hoy nos referiremos a [jQuery](https://jquery.com/).
