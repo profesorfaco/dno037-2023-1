@@ -60,7 +60,7 @@ Para continuar reconociendo los lenguajes mencionados más arriba, y seguir apro
 
 **Llegando a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023/clase-01) al editor de código fuente en su computador.** 
 
-Será necesario que tomen tales documentos y hagan los ajustes que el profesor indicará, por lo que conviene poner atención y presentar sus dudas de inmediato (presentarlas al profesor, no a compañeros, para no quitarles la posibilidad de poner atención).
+Abriendo los documentos preparados en el editor de código fuente en su computador, podrá hacer los ajustes que el profesor indicará. Para no perderse, es muy recomendable poner atención y presentar sus dudas de inmediato (presentarlas al profesor, no a compañeros, para no quitarles la posibilidad de poner atención).
 
 Todo lo que se ajuste tendrá que ser publicado por cada estudiante [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
