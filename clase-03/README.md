@@ -132,29 +132,20 @@ Tal estructura del JSON implica una forma de consultarlo. Si fuera otra la estru
 
 ¡Al principio parece engorroso! Pero así es todo la primera vez que lo enfrentamos: Lo que pasa es pronto se nos olvidan los primeros enfrentamientos con lo engorroso para ir por otros: Difícil es recordar lo engorroso de los trazos de las vocales y consontantes de nuestro nombre de pila que hace mucho tiempo aprendimos a escribir. Con la práctica, la complejidad de cualquier cosa se incorpora hasta no complicarnos más. 
 
-Por eso hoy volvemos a hacer una consulta a un JSON para completar una "App de dibujo".
-
 
 - - - - - - - - - - - - -
 
 ### Práctica
 
-Aprovechemos algún JSON distinto del ya trabajo. Podrían ser los disponibles en:
+La clase pasada usamos un documento `index.html` y nada más. Toda descripción y programación era contenida en él. En esta clase separamos cada lenguaje de descripción y programación en su propio documento, de extensiones `.html`, `.css` y `.js`
 
-- https://digimon-api.vercel.app/api/digimon
-- https://hp-api.herokuapp.com/api/characters/staff
-- https://pokeapi.co/api/v2/pokemon/
+Hoy volvemos a hacer una consulta a un JSON para dar una instrucción en una "App de dibujo" a resolver con p5.js, por lo que conviene:
 
-¡Pero tengan cuidado con la estructura de cada uno! La estructura del json en la pokeapi es como la de swapi, pero la estructura de digimon es como la de hp, donde podría ser necesaria un ajuste por [lo que siempre devuelve loadJSON](https://github.com/processing/p5.js/issues/2154#issuecomment-578892245).
+- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
 
-Tan pronto funcione el ajuste, podemos sumar un desafío para Harry Potter y Digimon: **Hacer un arreglo con opciones de un tipo de terminado**. Ej. Humanos vivos en Harry Potter o un mismo nivel en Digimon. Este desafío implica el uso de un `if` en el `forEach`:
+- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
-- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
-- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-
-Una vez hechas las pruebas, es posible cambiar la instrucción del dibujo [preparada en este sitio web](https://profesorfaco.github.io/dno037-2023/clase-03) por alguna que muestre una imagen de un Digimon por dibujar (como referencia para el dibujo).
-
-Y sube algunos dibujos al README.md de tu repositorio. Si lo haces hoy, sabrás como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04).
+Una vez hayas comprendido y hecho funcionar tu App, sube algunos dibujos al README.md de tu repositorio. Si lo haces hoy, sabrás como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04).
 
 El ejercicio completo puede ser evaluado con:
 
