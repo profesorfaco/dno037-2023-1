@@ -16,8 +16,6 @@ Nos queda por explorar:
 
 - [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*
 
-- [Leaflet.js](https://leafletjs.com/) – *The leading open-source JavaScript library for mobile-friendly interactive maps*.
-
 - - - - - - - - 
 
 En la clase de hoy nos referiremos a [jQuery](https://jquery.com/).
