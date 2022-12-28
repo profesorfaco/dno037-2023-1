@@ -39,67 +39,88 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://swapi.dev/api/people/?format=json) que tenía la siguiente estructura:
 
 ```
-{
-"count": 82,
-"next": "https://swapi.dev/api/people/?page=2&format=json",
-"previous": null,
-"results": […] //10 items
-}
+[
+  {
+    "region": "de Arica y Parinacota",
+    "region_iso_3166_2": "CL-AP",
+    "provincias": [···]
+  },
+  {
+    "region": "de Tarapacá",
+    "region_iso_3166_2": "CL-TA",
+    "provincias": [···]
+  },
+  {
+    "region": "de Antofagasta",
+    "region_iso_3166_2": "CL-AN",
+    "provincias": [···]
+  },
+  {
+    "region": "de Atacama",
+    "region_iso_3166_2": "CL-AT",
+    "provincias": [···]
+  },
+  {
+    "region": "de Coquimbo",
+    "region_iso_3166_2": "CL-CO",
+    "provincias": [···]
+  },
+  {
+    "region": "de Valparaíso",
+    "region_iso_3166_2": "CL-VS",
+    "provincias": [···]
+  },
+  {
+    "region": "del Libertador Gral. Bernardo O'Higgins",
+    "region_iso_3166_2": "CL-LI",
+    "provincias": [···]
+  },
+  {
+    "region": "del Maule",
+    "region_iso_3166_2": "CL-ML",
+    "provincias": [···]
+  },
+  {
+    "region": "de Ñuble",
+    "region_iso_3166_2": "CL-NB",
+    "provincias": [···]
+  },
+  {
+    "region": "del Biobío",
+    "region_iso_3166_2": "CL-BI",
+    "provincias": [···]
+  },
+  {
+    "region": "de la Araucanía",
+    "region_iso_3166_2": "CL-AR",
+    "provincias": [···]
+  },
+  {
+    "region": "de los Lagos",
+    "region_iso_3166_2": "CL-LL",
+    "provincias": [···]
+  },
+  {
+    "region": "de Aisén del Gral. Carlos Ibañez del Campo",
+    "region_iso_3166_2": "CL-AI",
+    "provincias": [···]
+  },
+  {
+    "region": "de Magallanes y de la Antártica Chilena",
+    "region_iso_3166_2": "CL-MA",
+    "provincias": [···]
+  },
+  {
+    "region": "Metropolitana de Santiago",
+    "region_iso_3166_2": "CL-RM",
+    "provincias": [···]
+      }
+    ]
+  }
+]
 ```
 
-Dentro de `results` tenemos un arreglo que contiene 10 ítems. Cada ítem tiene la siguiente estructura:
-
-```
-{
-"name": "Luke Skywalker",
-"height": "172",
-"mass": "77",
-"hair_color": "blond",
-"skin_color": "fair",
-"eye_color": "blue",
-"birth_year": "19BBY",
-"gender": "male",
-"homeworld": "https://swapi.dev/api/planets/1/",
-"films": […],
-"species": […],
-"vehicles": […],
-"starships": […],
-"created": "2014-12-09T13:50:51.644000Z",
-"edited": "2014-12-20T21:17:56.891000Z",
-"url": "https://swapi.dev/api/people/1/"
-}
-``` 
-
-Si necesito exclusivamente los `name` dentro de cada uno de los 10 items podría aprovechar dos métodos de JavaScript: 
-
-- El método [`forEach()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) que ejecuta la función indicada una vez por cada elemento del array.
-
-- El método [`push()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/push) que añade uno o más elementos al final de un array y devuelve la nueva longitud del array.
-
-Con tales métodos, y lo que ofrece la biblioteca de p5.js, podemos escribir la siguiente instrucción:
-
-```
-var starWars;
-
-function preload() {
-    starWars = loadJSON("https://swapi.dev/api/people/?format=json");
-}
-
-function setup() {
-    var lasOpciones = [];
-    starWars.results.forEach((personaje) => lasOpciones.push(personaje.name));
-    console.log(lasOpciones);
-    noCanvas();
-}
-```
-
-Puedo copiar y pegar la instrucción completa en https://editor.p5js.org/
-
-En tal instrucción creo una variable global, de nombre `starWars`. Dentro del `preload()` puedo guardar en tal variable la información que está en línea gracias a [un JSON](https://swapi.dev/api/people/?format=json). Ahora, dentro del `setup()` puedo crear la variable de `lasOpciones` como un arreglo vacío. Luego, tomo la variable `starWars` y dentro de cada ítem dentro de `results` tomo el `name`, para sumarlo al arreglo que antes estaba vacío. Así se obtienen `lasOpciones`:
-
-```
-['Luke Skywalker', 'C-3PO', 'R2-D2', 'Darth Vader', 'Leia Organa', 'Owen Lars', 'Beru Whitesun lars', 'R5-D4', 'Biggs Darklighter', 'Obi-Wan Kenobi']
-```
+Si analisamos este JSON como notación de JavaScript, tendríamos que notar que todo es contenido por paréntesis cuadrados, por lo que se trata de un arreglo. Los elementos de cada arreglo, que están separados por coma, son contenidos por paréntesis de llave, por lo se trata de objetos. En los objetos vemos estos pares. Para el par donde el denominador es provincia, lo que tenemos es otro arreglo.
 
 - - - - - - - - - - - - -
 
