@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + p5.js
 
-### Teoría
+### Teoría (para la casa)
 
 Escribir "código fuente" implica describir y/o programar. 
 
@@ -24,7 +24,7 @@ Pero JavaScript, y la programación en general, puede tomarnos mucho más tiempo
 
 - - - - - - - - - - - - - - 
 
-### Práctica
+### Práctica (para la clase)
 
 Para reconocer los lenguajes mencionados más arriba, podemos aprovechar los documentos contenidos en esta carpeta, comenzando con [index.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/index.html):
 
