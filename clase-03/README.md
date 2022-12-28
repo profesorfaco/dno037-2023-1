@@ -145,7 +145,9 @@ Hoy volvemos a tomar datos de [un JSON](https://aves.ninjas.cl/api/birds); con u
 
 - contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
 
-Una vez hayas comprendido y hecho funcionar tu App, sube algunos dibujos al README.md de tu repositorio. Si lo haces hoy, sabrás como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04).
+Cuando tengan ya tengan los documentos preparados abiertos en editor de código fuente en su computador, comenzaremos a examinar el funcionamiento de esta "App de dibujo".
+
+En esta clase, además de subir el trabajo al repositorio, habría que subir algunos dibujos al README.md de tu repositorio. Si resuelven eso hoy, sabrán como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04).
 
 El ejercicio completo puede ser evaluado con:
 
