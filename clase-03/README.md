@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + p5.js
 
-### Teoría
+### Teoría (para la casa)
 
 Para comenzar a comprender JavaScript, aprovechamos [p5.js](https://p5js.org/es/): una biblioteca de JavaScript que es una reinterpretación de [Processing](https://processing.org/) para la web. Por tal reinterpretación, lo más común es que tenemos dos funciones, una que se ejecuta una única vez y otra que se ejecuta una y otra vez. 
 
@@ -135,7 +135,7 @@ Tal estructura del JSON implica una forma de consultarlo. Si fuera otra la estru
 
 - - - - - - - - - - - - -
 
-### Práctica
+### Práctica (para la clase)
 
 La clase pasada usamos un documento `index.html` y nada más. Toda descripción y programación era contenida en él. En esta clase separamos cada lenguaje de descripción y programación en su propio documento, de extensiones `.html`, `.css` y `.js`
 
