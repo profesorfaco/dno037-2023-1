@@ -4,7 +4,7 @@
 
 ### Evaluación Nº1
 
-Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, [su propia versión de un sitio web](https://profesorfaco.github.io/dno037-2023/clase-04/) que toma como base los archivos `index.html` y `style.css`, y aprovecha los códigos ya compartidos en las clases [01](https://github.com/profesorfaco/dno037-2023/tree/main/clase-01), [02](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) y [03](https://github.com/profesorfaco/dno037-2023/tree/main/clase-03): 
+Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages, [su propia versión de un sitio web](https://profesorfaco.github.io/dno037-2023/clase-04/) que toma como base los archivos `index.html` y `style.css` en esta carpeta, y aprovecha los códigos ya compartidos en las clases [01](https://github.com/profesorfaco/dno037-2023/tree/main/clase-01), [02](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) y [03](https://github.com/profesorfaco/dno037-2023/tree/main/clase-03): 
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
