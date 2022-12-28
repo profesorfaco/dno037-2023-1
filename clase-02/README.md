@@ -26,11 +26,11 @@ Tal como Processing, [p5.js](https://p5js.org/es/) ofrece
 
 > un conjunto completo de funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar en tu lienzo. Puedes tomar toda la página del navegador como tu bosquejo, incluyendo los objetos HTML5 para texto, entrada, video, cámara web y sonido.
 
-Aquí conviene agregar una nota sobre el [Modelo de Objeto de Documento (DOM)](https://developer.mozilla.org/es/docs/Glossary/DOM): **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web**.
+Y puedes tomar toda la página del navegador por el [Modelo de Objeto de Documento (DOM)](https://developer.mozilla.org/es/docs/Glossary/DOM): **A través del DOM, los programas escritos en JavaScript pueden acceder y modificar el contenido, estructura y estilo de la representación de la página web**.
 
-Con el DOM podemos manipular una página así como cuando manipulamos una imagen con Photoshop. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas la realidad capturada, pero todos podrán ver una imagen con 4 elementos. 
+Con el DOM podemos manipular una página así como cuando *photoshopeamos* una imagen. Si capturaste una imagen con 3 elementos y agregas un cuarto *photoshopénadolo*, en ningún caso modificas el fenómeno capturado, pero todos podrán ver una imagen con 4 elementos. 
 
-Por la manipulación del DOM **podríamos encontrar inconcruencias entre** los despliegue de **código fuente de la página** y **elementos de la página**. Estirando la analogía: En el código fuente de la página está lo capturado originalmente, mientras que en la vista de elementos de la misma página está lo *photoshopeado*, y esto último coincide con lo que tenemos a la vista.
+Por la manipulación del DOM **podríamos encontrar inconcruencias entre** dos vista: la del **código fuente de la página** y la de los **elementos de la página**. Estirando la analogía: En el código fuente de la página ves el fenómeno tal como fue capturado, mientras que en la vista de elementos de la misma página está lo *photoshopeado* (lo que tenemos a la vista en toda la página del navegador).
 
 Para que esta diferencia quede muy clara, pueden examinar [la página preparada para esta clase](https://profesorfaco.github.io/dno037-2023/clase-02/) y notar que no incluye ninguno de los contenidos que pueden verse cada vez que se carga, porque el contenido depende de dos consultas programadas:
 
@@ -38,11 +38,11 @@ Para que esta diferencia quede muy clara, pueden examinar [la página preparada 
 
 - Consulta a un JSON que está en línea, con la función [loadJSON() de p5.js](https://p5js.org/es/reference/#/p5/loadJSON)
 
-La primera consulta nos permitirá avanzar a [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos al [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
+La primera consulta nos permitirá trabajar con [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos por primera vez a [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
 
-Para la comprensión del JSON, conviene saber
+Pero antes del asomarnos a tal formato ligero de intercambio de datos, conviene saber algunas cosas sobre datos en programación.
 
-Para comenzar a clarificar las cosas, partamos con el número 18261884. 
+Partamos con el número 18261884. 
 
 Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero es distinto de la siguiente manera: 
 
@@ -78,8 +78,8 @@ Usando únicamente `var`, en JavaScript podemos asignar como contenido de la var
 var a = 18261884;
 var b = 24.15267252;
 var c = true;
-var d = "Lisa the Vegetarian";
-var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
+var d = "siguiente";
+var e = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
 var f = {
     mom: "Luann Van Houten",
     dad: "Kirk Van Houten",
@@ -118,7 +118,7 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Las variables `f`, `g` y `h` pueden verse como la estructura más común de un **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript).
+Las variables de nombre `f`, `g` y `h` pueden verse como la estructura más común de un **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript). Lo que faltan son unas comillas que podemos ver antes de los dos puntos en https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json
 
 - - - - - - - - - - - - -
 
