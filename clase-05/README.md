@@ -13,6 +13,9 @@ Antes de explorar algunas de ellas, nos conviene hacer un último ejercicio con 
 - movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
 
+La primera, del tiempo atmosférico, es una API (Application Programming Interfaces) que conviene estudiar previo a la clase para poder resolver de manera más eficiente las consultas de la práctica: https://openweathermap.org/current
+
+
 - - - - - - - - - 
 
 ### Práctica
