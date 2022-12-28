@@ -38,6 +38,8 @@ Para que esta diferencia quede muy clara, pueden examinar [la página preparada 
 
 - Consulta a un JSON que está en línea, con la función [loadJSON() de p5.js](https://p5js.org/es/reference/#/p5/loadJSON)
 
+La primera consulta nos permitirá avanzar a [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). La segunda nos permitirá asomarnos al [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
+
 - - - - - - - - - - - - -
 
 ### Práctica
