@@ -46,10 +46,6 @@ Para familiarizanos con el trabajo con el DOM, podemos aprovechar los documentos
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
-- revisar el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date);
-
-- revisar la [propiedad `Element.classList`](https://developer.mozilla.org/es/docs/Web/API/Element/classList);
-
 - tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
 
 - contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
