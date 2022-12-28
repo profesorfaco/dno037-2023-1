@@ -44,7 +44,7 @@ La primera consulta nos permitirá avanzar a [la sentencia `if...else`](https://
 
 ### Práctica
 
-Para familiarizanos con el trabajo con el DOM, podemos aprovechar los documentos contenidos en [esta carpeta](https://github.com/profesorfaco/dno037-2023/blob/main/clase-02). Pero antes de aprovecharlos, conviene:
+Antes de pasar a trabajar con el `index.html` preparado, conviene:
 
 - revisar el [método `querySelector`](https://developer.mozilla.org/es/docs/Web/API/Element/querySelector);
 
