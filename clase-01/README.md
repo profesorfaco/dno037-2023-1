@@ -56,9 +56,11 @@ El contenido de la variable se aprovecha para programar algo sencillo, a través
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/page.html), donde se programa otra cosa sencilla con p5.js (`<script></script>`).
 
-**Llegado a este punto, es necesario que descarguen lo contenido en la carpeta de esta clase, y hagan algunos ajustes para cumplir con la primera parte del ejercicio** 
+**Llegado a este punto, ya conviene llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023/clase-01) al editor de código fuente en su computador.** 
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), **[su versión ajustada de este sitio web](https://profesorfaco.github.io/dno037-2023/clase-01)**.
+Será necesario que tomen tales documentos y hagan los ajustes que el profesor indicará, por lo que conviene poner atención y presentar sus dudas de inmediato (presentarlas al profesor, no a compañeros, para no quitarles la posibilidad de poner atención).
+
+Todo lo que se ajuste tendrá que ser publicado por cada estudiante [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 El ejercicio completo puede ser evaluado con:
 
@@ -66,10 +68,9 @@ El ejercicio completo puede ser evaluado con:
 
 - **1 punto** → logrado.
 
-- **2 puntos** → logrado, con aporte descatado.
+- **2 puntos** → logrado con aporte destacado.
 
 El ejercicio incompleto es evaluado con 0 punto.
-
 
 - - - - - - - 
 
