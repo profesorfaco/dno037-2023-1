@@ -139,7 +139,7 @@ Tal estructura del JSON implica una forma de consultarlo. Si fuera otra la estru
 
 La clase pasada usamos un documento `index.html` y nada más. Toda descripción y programación era contenida en él. En esta clase separamos cada lenguaje de descripción y programación en su propio documento, de extensiones `.html`, `.css` y `.js`
 
-Hoy volvemos a hacer una consulta a un JSON para dar una instrucción en una "App de dibujo" a resolver con p5.js, por lo que conviene:
+Hoy volvemos a tomar datos de [un JSON](https://aves.ninjas.cl/api/birds), con una alternativa aleatoria se definirá una instrucción en una "App de dibujo" a resolver con p5.js. Conviene:
 
 - tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
 
