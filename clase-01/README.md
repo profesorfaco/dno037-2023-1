@@ -44,7 +44,9 @@ Dentro de la cabeza (`<head></head>`), podemos ver un vínculo a un [style.css](
 <link href="style.css" rel="stylesheet" />
 ```
 
-En las líneas finales del `index.html`, dentro de unas etiquetas de script (`<script></script>`), podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
+Ahora volvamos al [index.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/index.html), y veamos las líneas al final del cuerpo (`<body></body>`), dentro de unas etiquetas de script (`<script></script>`). 
+
+Allí podemos ver una [variable de JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables#%C2%BFqu%C3%A9_es_una_variable); esta variable se llama `palabras` y contiene un arreglo con 8 cadenas de caracteres entre comillas. 
 
 ```
 var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächster", "次の", "다음의"];
@@ -52,7 +54,7 @@ var palabras = ["siguiente", "repüyen", "seguente", "suivant", "next", "Nächst
 
 Cada cadena de caracteres, contenida entre comillas, tiene una posición dentro del arreglo. Las posiciones se identifican con un número, partiendo a la izquierda con el 0. Considerando lo recién dicho, `palabras[0]` refiere a `siguiente` y `palabras[7]` refiere a `다음의` 
 
-El contenido de la variable se aprovecha para programar algo sencillo, a través de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web. Según la analogía de más arriba, esta es como "una selección de ingredientes listos para poder preparar determinado tipo de comida", que podemos encontrar en https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js
+El contenido de la variable se aprovecha para programar algo sencillo, con la ayuda de [p5.js](https://p5js.org/es/get-started/): una bibliteca de JS que reinterpreta Processing para la Web.
 
 Para continuar reconociendo los lenguajes mencionados más arriba, y seguir aprovechando los documentos contenidos en esta carpeta, pasemos a [page.html](https://github.com/profesorfaco/dno037-2023/blob/main/clase-01/page.html), donde se programa otra cosa sencilla con p5.js (`<script></script>`).
 
