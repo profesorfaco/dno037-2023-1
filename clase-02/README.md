@@ -118,15 +118,7 @@ La variable `f`, que contiene un objeto, usa paréntesis de llave que en su inte
 
 Las variables `g` y `h` son mezclas de las anteriores.
 
-Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos.
-
-Para cerrar, consideremos que existen servicios que ofrecen datos en línea en formato JSON, tales como:
-
-- tiempo atmosférico: https://openweathermap.org/current#current_JSON
-- indicadores económicos diarios en Chile: https://mindicador.cl/api
-- movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-- etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
-
+Las variables `f`, `g` y `h` pueden verse como la estructura más común de un **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript).
 
 - - - - - - - - - - - - -
 
