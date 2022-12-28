@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + p5.js
 
-### Teoría
+### Teoría (para la clase)
 
 Ya pudimos reconocer la diferencia entre los lenguajes de descripción y el lenguaje de programación. Para comenzar a profundizar en un lenguaje de programación aprovechamos [p5.js](https://p5js.org/es/):
 
@@ -122,7 +122,7 @@ Las variables de nombre `f`, `g` y `h` pueden verse como un **JSON**. Lo que les
 
 - - - - - - - - - - - - -
 
-### Práctica
+### Práctica (para la clase)
 
 Antes de llevar los [documentos preparados](https://profesorfaco.github.io/dno037-2023/clase-02) al editor de código fuente en su computador, conviene:
 
