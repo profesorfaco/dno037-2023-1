@@ -122,15 +122,17 @@ En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p
 
 Si analizamos este JSON como notación de JavaScript (razón de su nombre, iniciales de JavaScript Object Notation), tenemos que todo es contenido por un paréntesis cuadrado, por lo que se trata de un arreglo. Los elementos de este arreglo, que están separados por coma, son contenidos por paréntesis de llave, por lo que cada uno de los 16 elementos en este arreglo es un objeto. En los objetos vemos tres pares, con un tercero que contiene su arreglo para desplegar más información (que, por espacio, aquí se omite).
 
-Tal estructura del JSON implica una forma de consultarlo. Si fuera otra la estructura, otra sería la forma de consultarlo.
+Tal estructura del JSON implica una forma de consultarlo. Si fuera otra la estructura, otra sería la forma de consultarlo:
 
-Si quiero un dato de un arreglo: Lo llamo por su ubicación numerada, que parte en 0.
+- Si quiero un dato de un arreglo: Lo llamo por su ubicación numerada, que parte en 0.
 
-Si quiere un dato de un objeto: Lo llamo por su nombre. 
+- Si quiere un dato de un objeto: Lo llamo por su nombre. 
 
-Si el dato está dentro de un arreglo que está dentro de un objeto que, a su vez, está dentro de un arreglo: Lo llamo por su posición después de su nombre y después de su posición.
+- Si quiero un dato que está dentro de un arreglo que está dentro de un objeto que, a su vez, está dentro de un arreglo: Lo llamo por su posición después de su nombre y después de su posición.
 
-¡Al principio parece engorroso! Pero así es todo la primera vez que lo enfrentamos: Lo que pasa es que no nos acordamos, por lo general, de lo engorroso que alguna vez nos fue recordar, por ejemplo, los trazos de las vocales y consontantes de nuestro nombre de pila. Con la práctica la complejidad de cualquier cosa se incorpora hasta ya no complicarnos. Por eso hoy volvemos a hacer una consulta a un JSON.
+¡Al principio parece engorroso! Pero así es todo la primera vez que lo enfrentamos: Lo que pasa es pronto se nos olvidan los primeros enfrentamientos con lo engorroso para ir por otros. Por ejemplo, difícil es recordar lo engorroso de los trazos de las vocales y consontantes de nuestro nombre de pila que en el primero septenio ya teníamos que aprender a escribir. Con la práctica, la complejidad de cualquier cosa se incorpora hasta no complicarnos más. 
+
+Por eso hoy volvemos a hacer una consulta a un JSON para completar una "App de dibujo".
 
 
 - - - - - - - - - - - - -
