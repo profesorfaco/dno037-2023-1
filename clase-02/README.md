@@ -40,6 +40,94 @@ Para que esta diferencia quede muy clara, pueden examinar [la página preparada 
 
 La primera consulta nos permitirá avanzar a [la sentencia `if...else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else). Y la segunda nos permitirá asomarnos al [JSON](https://www.json.org/json-es.html), un formato ligero de intercambio de datos.
 
+Para la comprensión del JSON, conviene saber
+
+Para comenzar a clarificar las cosas, partamos con el número 18261884. 
+
+Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero es distinto de la siguiente manera: 
+
+| País      |  Población       | Superficie     |
+|:----------|:-----------------|:---------------|
+| Chile     | 18261884         | 756102         |
+
+Entendiendo cómo funciona una tabla, contamos con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
+
+Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato numérico por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
+
+Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apuntar:
+
+- **18261884** es un número entero, un `int` (del inglés *integer*).
+
+- **24,15267252** es un número de coma flotante, un `float` (del inglés *floating point number*; y no se olviden de esta diferencia, lo que para nosotros es coma, *for them* es punto, y el *coding* se hace en *english*).
+
+A estos dos tipos de datos, podemos agregar: 
+
+- **true** o **false** como las dos opciones posibles de un [tipo de dato lógico](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico) (bool: *boolean*)
+
+- **"A"** como un carácter (char: *character*)
+
+- **"ALGUNAS PALABRAS"** como una cadena de caracteres (en inglés: *string*)
+
+¡En el tipo de dato numérico y booleano no se usan comillas, pero cuando se tienen caracteres aislados o en cadena, sí!
+
+Mencionamos `int`, `float`, `bool`, `char` y `string`, porque son palabras que en lenguajes de programación más clásicos se reservan para **declarar que tal variable almacenará tal tipo de dato. Pero en JavaScript podemos crear toda variables con una única palabra reservada,`var`**. También podemos usar `let` y `const`. Para entender la diferencia, nos conviene consultar el artículo [Var, let y const. ¿Donde, cuando y por qué?](https://medium.com/@tatymolys/var-let-y-const-donde-cuando-y-por-qu%C3%A9-d4a0ee66883b).
+
+Usando únicamente `var`, en JavaScript podemos asignar como contenido de la variable todas las siguientes alternativas:
+
+```
+var a = 18261884;
+var b = 24.15267252;
+var c = true;
+var d = "Lisa the Vegetarian";
+var e = ["Marge Simpson", "Homer Simpson", "Bart Simpson", "Lisa Simpson", "Maggie Simpson"];
+var f = {
+    mom: "Luann Van Houten",
+    dad: "Kirk Van Houten",
+    child: "Milhouse Van Houten"
+};
+var g = {
+    mom: "Marge Simpson",
+    dad: "Homer Simpson",
+    children: ["Bart Simpson", "Lisa Simpson", "Maggie Simpson"]
+};
+var h = [
+    {
+        mom: "Luann",
+        dad: "Kirk",
+        children: ["Milhouse"]
+    },
+    {
+        mom: "Marge",
+        dad: "Homer",
+        children: ["Bart", "Lisa", "Maggie"]
+    },
+    {
+        mom: "Manjula",
+        dad: "Apu",
+        children: ["Poonam", "Sashi", "Pria", "Uma", "Anoop", "Sandeep", "Nabendu", "Gheet"]
+    }
+];
+```
+**Lo que cambia viene después del signo igual `=`, que en este caso está asignando contenido a cada variable.** 
+
+Las variables `a`, `b` y `c` no requieren comillas. La variable `d`, que contiene una cadena de caracteres (*string*) sí usa comillas. 
+
+La variable `e`, que contiene un arreglo, usa paréntesis cuadrado y cada elemento, por tratarse de un *string*, usa comillas (si fuesen números o booleanos no las usarían). 
+
+La variable `f`, que contiene un objeto, usa paréntesis de llave que en su interior contiene pares de `nombre:valor`. 
+
+Las variables `g` y `h` son mezclas de las anteriores.
+
+Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos.
+
+Para cerrar, consideremos que existen servicios que ofrecen datos en línea en formato JSON, tales como:
+
+- tiempo atmosférico: https://openweathermap.org/current#current_JSON
+- indicadores económicos diarios en Chile: https://mindicador.cl/api
+- movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
+
+
 - - - - - - - - - - - - -
 
 ### Práctica
