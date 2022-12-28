@@ -86,14 +86,12 @@ Las variables `g` y `h` son mezclas de las anteriores.
 
 Las variables `f`, `g` y `h` pueden verse como algo que ya hemos usado: **JSON** (JavaScript Object Notation; Notación de Objetos de JavaScript), un formato ligero de intercambio de datos.
 
-Para cerrar, recordemos que existen servicios que ofrecen datos en línea. Mucho más útiles que los datos de personajes de [StarWars](https://swapi.dev/api/people/?format=json), pueden ser los datos sobre:
+Para cerrar, consideremos que existen servicios que ofrecen datos en línea en formato JSON, tales como:
 
 - tiempo atmosférico: https://openweathermap.org/current#current_JSON
 - indicadores económicos diarios en Chile: https://mindicador.cl/api
 - movimientos telúricos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 - etcétera: https://github.com/juanbrujo/listado-apis-publicas-en-chile
-
-Como recordarán: En la [clase-03](https://github.com/profesorfaco/dno037-2023/tree/main/clase-03) vimos que era posible hacer pruebas con el [editor de p5.js](https://editor.p5js.org/profesorfaco/sketches/611nBVIY2). Pueden repetir esas pruebas para revisar estructura y posibles consultas a los servicios recién referidos.
 
 - - - - - - - - - 
 
