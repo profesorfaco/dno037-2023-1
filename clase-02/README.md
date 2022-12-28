@@ -32,7 +32,7 @@ Con el DOM podemos manipular una página así como cuando *photoshopeamos* una i
 
 Por la manipulación del DOM **podríamos encontrar inconcruencias entre** dos vista: la del **código fuente de la página** y la de los **elementos de la página**. Estirando la analogía: En el código fuente de la página ves el fenómeno tal como fue capturado, mientras que en la vista de elementos de la misma página está lo *photoshopeado* (lo que tenemos a la vista en toda la página del navegador).
 
-Para que esta diferencia quede muy clara, pueden examinar [la página preparada para esta clase](https://profesorfaco.github.io/dno037-2023/clase-02/) y notar que no incluye ninguno de los contenidos que pueden verse cada vez que se carga, porque el contenido depende de dos consultas programadas:
+Para que esta diferencia quede muy clara, pueden examinar el código fuente de [la página preparada para esta clase](https://profesorfaco.github.io/dno037-2023/clase-02/) y notar que no incluye los contenidos que pueden verse cada vez que se carga, porque el contenido depende de dos consultas programadas:
 
 - Consulta por el momento en que se carga la página, con el [constructor `Date()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Date)
 
