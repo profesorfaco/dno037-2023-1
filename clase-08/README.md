@@ -10,15 +10,14 @@ Para preparar su propia versión, cada estudiante debe **buscar información sob
 
 Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
-| criterio | descripción             | pts. |
-|:----:|:----------------------------|:----:|
-| A | En `index.html` incluye el título de la saga, seguido por un párrafo de presentación general, redactado de manera directa y concisa, y usando CSS, incluye una imagen que, pesando menos de 200kb, se fusiona con el color de fondo de la página (en las demás páginas se mantiene el color de fondo, pero no se incluye la imagen) | 1 |
-| B | Cambia familia tipográficas para conectar con el tenor de la saga, y cambiar colores de fondo y texto en función del mayor *contrast ratio*; estos cambios se aplican en todas las páginas del sitio. | 1 |
-| C | En `peliculas.html` despliega cada entrega de la saga (mínimo 6, máximo 10) con una imagen, tipo poster. Este despliegue se resuelve mediante un *script* que consulta a un CSV o un JSON | 1 | 
-| D | Cada entrega desplegada en la página `peliculas.html` debe vincular a una página `pelicula.html` que se completa con un *script* que consulta a la fila o elemento correspondiente del mismo CSV o JSON ya usado en la página de origen| 1 |
-| E | El mismo *script* con el que se construye la página de `pelicula.html` debe considerar un mensaje de error amable. Este mensaje debe ser acompañado con la imagen de un personaje de la saga (que refuerce la amabilidad del mensaje)  | 1 |
-| F | En `ganancias.html` despliega un gráfico de barras que compara las cantidades de platas recaudadas por cada entrega de la saga | 1 |
-| I | Punto base | 1 |
+| Instrucción/descripción |  Puntaje | 
+|:------------------------|:--------:|
+| Pendiente hasta el 26/04/2023 | 1.0 |
+| Pendiente hasta el 26/04/2023 | 1.0 |
+| Pendiente hasta el 26/04/2023 | 1.0 |
+| Puntos acumulados por trabajo desarrollado entre las clases 5 y 7 | 3.0 |
+| Punto base | 1.0 |
+| TOTAL  | 7.0 |
 
 - - - - - - - - - - - - -
 
