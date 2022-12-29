@@ -74,7 +74,7 @@ Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clase
 **[Clase 17 → 28/06/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17) → Evaluación Nº4**
 
 
-**Cada clase se basará en modalidad de “aula invertida”**; esto transfiere a cada estudiante la responsabilidad de adelantar la revisión de la "teoría" en el README.md de cada clase; cada miércoles se podría impartir una clase que organice su comprensión, atienda a las dudas y profundice contenidos desde la práctica.
+**Cada clase se basará en modalidad de “aula invertida”**; esto transfiere a cada estudiante la responsabilidad de adelantar la revisión de la "teoría" en el README.md de cada clase. Para que quede más claro, en las primeros README.md el título **Teoría** es seguido por un paréntesis **(para la casa)**. Si cada estudiante cumple con ello, las clases de los miércoles podrán basarse en la práctica que organice su comprensión, atendiendo a dudas puntuales.
 
 Esta modalidad NO aplica en:
 
