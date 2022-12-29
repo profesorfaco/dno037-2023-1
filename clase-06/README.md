@@ -6,7 +6,7 @@
 
 Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries) que exploraremos, además de [p5.js](https://p5js.org/es/), son:
 
-- [Chart.js](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
+- [Chart.js v3](https://www.chartjs.org/) – *Simple, clean and engaging HTML5 based JavaScript charts*.
 
 - [jQuery](https://jquery.com/) - *A fast, small, and feature-rich JavaScript library*.
 
@@ -14,9 +14,9 @@ Las [bibliotecas de JavaScript](https://en.wikipedia.org/wiki/List_of_JavaScript
 
 Como ya sabemos, en las variables podemos almacenar valores numéricos. Estos valores pueden ser visualizados mediante gráficos de [línea](https://www.chartjs.org/docs/latest/charts/line.html), [barra](https://www.chartjs.org/docs/latest/charts/bar.html), [radar](https://www.chartjs.org/docs/latest/charts/radar.html), [torta](https://www.chartjs.org/docs/latest/charts/doughnut.html), [área polar](https://www.chartjs.org/docs/latest/charts/polar.html), [burbujas](https://www.chartjs.org/docs/latest/charts/bubble.html) y [dispersión](https://www.chartjs.org/docs/latest/charts/scatter.html), que son los tipos de gráficos disponibles en una de las bibliotecas de JavaScript recién mencionadas:
 
-**[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar tales gráficos desde su promesa, en inglés de ser *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse en ese lugar intermedio puede provocar dolores de cabeza en los extremos caricaturizados: muy complejo para *designers* o muy simple para *developers*.** 
+**[Chart.js v3](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar tales gráficos desde su promesa de ser *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse con simpleza y flexibilidad entre dos extremos, podría llegar a incomodar a *designers* que quieran personalizar cada pequeño detalle y también a *developers* que necesitan visualizar una ingente cantidad de datos**. Lo que haremos será generar gráficos sencillos, complicándonos en la preparación de los datos por visualizar. 
 
-Para poder usarlo corresponde reconocer sus partes: 
+Para poder usar la biblioteca de Charts.js v3 corresponde reconocer sus partes: 
 
 ```
 var contexto = document.getElementById('nombre');
@@ -36,7 +36,7 @@ new Chart(document.getElementById('nombre'), {type: '…', data: {…}, options:
 
 Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofrecen en línea. 
 
-**Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
+**Pero en esta ocasión no estamos trabajando con p5.js, sólo con la biblioteca de Charts.js v3, por ello no contamos con [la función loadJSON](https://p5js.org/es/reference/#/p5/loadJSON); ya nos corresponde avanzar al [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch)**.
 
 **Para aprender lo necesario respecto del uso de Fetch, es recomedable tomarse 47 minutos para ver tres videos de Daniel Shifmann**:
 
@@ -44,10 +44,9 @@ Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofre
 - https://youtu.be/RfMkdvN-23o
 - https://youtu.be/uxf0--uiX0I
 
-Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al tipo de gráfico que estemos usando en [Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type).
+Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al [tipo de gráfico](https://www.chartjs.org/docs/latest/charts/?h=type).
 
 Podemos, por ejemplo, tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras, como se hace en el el script-1.js en la carpeta de la clase de hoy: 
-
 
 ```
 async function todo() {
@@ -77,9 +76,8 @@ async function todo() {
 todo().catch((error) => console.error(error));
 ```
 
-También podemos tomar los datos de un JSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados e [informados por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) durante los últimos 7 días. En [el JSON de la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) no encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en Chile o Japón, pero podemos encargarle al computador revisar si en cada registro el nombre del lugar incluye `Chile` o `Japan`. 
+También podemos tomar los datos de un GeoJSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados e [informados por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). En el GeoJSON que usamos en el `script-2.js`, nos encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en el mundo el último mes:
 
-Eso es lo que se hace en el `script-2.js`:
 
 ```
 async function todo() {
@@ -143,11 +141,11 @@ España,47350000,505990
 
 Usando CSV, el Ministerio de Ciencia ofrece datos actualizados sobre el COVID-19 en Chile: https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv
 
-Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, tal CSV tiene sólo 22 líneas, pero más de 760 comas por línea.
+Allí sólo hay 22 filas, pero tantas columnas como días han pasado desde el 2 de marzo de 2020. Dicho de otro modo, tal CSV tiene sólo 22 líneas, pero más de mil comas por línea.
 
-En un repositorio de GitHub un CSV bien escrito se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
+En un repositorio de GitHub un CSV (bien escrito) se muestra en tablas, pero en *raw* se ve así: https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv
 
-El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Así se muestra en el script-3.js:
+El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Así se muestra en el `script-3.js` preparado para la clase:
 
 ```
 async function visualizacion() {
