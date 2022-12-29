@@ -1,4 +1,4 @@
-### Diseño y Nuevos Medios → Clase 16 → 22/06/2023
+### Diseño y Nuevos Medios → Clase 15 → 14/06/2023
 
 # Diseño y desarrollo
 
@@ -52,4 +52,4 @@ A tales puntos se le suma un punto base y se obtiene el 7.
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-15) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-16)
