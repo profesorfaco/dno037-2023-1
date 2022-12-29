@@ -1,6 +1,6 @@
 ### Diseño y Nuevos Medios → Clase 13 → 31/05/2023
 
-# Bootstrap v5
+# Bootstrap v5.3
 
 ### Evaluación Nº3
 
