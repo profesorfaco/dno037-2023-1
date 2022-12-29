@@ -1,4 +1,4 @@
-### Diseño y Nuevos Medios → Clase 17 → 21/06/2023
+### Diseño y Nuevos Medios → Clase 16 → 21/06/2023
 
 # Pre-evaluación Nº4
 
@@ -17,4 +17,4 @@ Sin su pre-evaluación, pierde la posibilidad de hacer ajustes, y su promedio se
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-16) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-15) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17)
