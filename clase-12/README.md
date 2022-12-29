@@ -1,6 +1,6 @@
 ### Diseño y Nuevos Medios → Clase 12 → 24/05/2023
 
-# Bootstrap v5.1
+# Bootstrap v5.3
 
 Hoy trabajaremos con dos *themes* basados en Bootstrap. Partiremos:
 
