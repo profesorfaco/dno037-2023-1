@@ -1,6 +1,6 @@
 ### Diseño y Nuevos Medios → Clase 11 → 17/05/2023
 
-# Bootstrap v5.1
+# Bootstrap v5.3
 
 ### Teoría
 
