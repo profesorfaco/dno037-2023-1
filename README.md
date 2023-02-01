@@ -26,9 +26,13 @@ Cada estudiante en este OPR debe contar con:
 
 - computador durante el horario de clases, con:
 
-  - editor de código fuente: [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)
+  - conexión a Internet
 
-  - navegador web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). **NO utilizaremos Safari**. Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador).
+  - editor de código fuente ([Sublime Text](https://www.sublimetext.com/) o [Phoenix Code Editor](https://phcode.dev/))
+
+  - navegador web: [Chrome](https://www.google.com/intl/es-419/chrome/) o [Firefox](https://www.mozilla.org/es-CL/firefox/new/). **NO utilizaremos Safari**. Es muy necesario que desactive los traductores en su navegador, porque la traducción automática (y forzada) al español puede complicar un trabajo que se hace, principalmente, en inglés. También es necesario que sepa como "Ver el código fuente de la página", [inspeccionar elementos](https://support.hostinger.es/es/articles/2333029-como-inspeccionar-los-elementos-del-sitio-web) y [abrir consola](https://transferwise.com/es/help/articles/2954851/como-abrir-la-consola-de-tu-navegador)
+
+
 
 
 - - - - - - - - -
