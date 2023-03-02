@@ -102,7 +102,7 @@ Esta modalidad NO aplica en:
 
 **25%** → puntos acumulados entre clases 10 y 12 + puntaje obtenido en evaluación Nº3 (clase 13)
 
-**25%** → puntos acumulados entre clases 14 y 16 + puntaje obtenido en evaluación Nº4 (clases 17 y 18)
+**25%** → puntos acumulados entre clases 14 y 16 + puntaje obtenido en evaluación Nº4 (clases 16 y 17)
 
 **Al aprobar el optativo, cada estudiante podrá desarrollar, de manera autónoma, su primer sitio web profesional o prototipo avanzado de aplicación web**.
 
