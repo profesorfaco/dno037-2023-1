@@ -88,9 +88,9 @@ Esta modalidad NO aplica en:
 
 - [Clase 13](https://github.com/profesorfaco/dno037-2023/tree/main/clase-13) → Evaluación Nº3
 
-- [Clase 17](https://github.com/profesorfaco/dno037-2023/tree/main/clase-16) → Pre-evaluación Nº4
+- [Clase 16](https://github.com/profesorfaco/dno037-2023/tree/main/clase-16) → Pre-evaluación Nº4
 
-- [Clase 18](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17) → Evaluación Nº4
+- [Clase 17](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17) → Evaluación Nº4
 
 - - - - - - - -
 
