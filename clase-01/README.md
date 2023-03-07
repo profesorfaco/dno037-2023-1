@@ -6,9 +6,9 @@
 
 Escribir "código fuente" implica describir y/o programar. 
 
-Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente" (puede ser [Atom.io](https://atom.io/) o [Sublime Text](https://www.sublimetext.com/)).
+Para reconocer los lenguajes de descripción y programación que son claves para el desarollo de sitios web profesionales o prototipos avanzados de aplicaciones web, trabajaremos con un "editor de código fuente".
 
-Los colores en el editor de código fuente "nos darán indicaciones" para poder escribir nuestro código fuente con:
+Los colores en un editor de código fuente "nos darán indicaciones" para poder escribir nuestro código fuente con:
 
 - **HTML (HyperText Markup Language)**. Lenguaje estándar que describe la estructura de las páginas web (qué es lo que contiene la página). HTML5 es la versión más reciente de este lenguaje. El bloque constructivo más básico del HTML es el elemento. Cada elemento de HTML se escribe, generalmente, entre etiquetas: `<etiqueta>contenido</etiqueta>` → Podemos complementar esta breve introducción a HTML con una revisión de la página: https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics
 
