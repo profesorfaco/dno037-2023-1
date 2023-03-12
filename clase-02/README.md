@@ -50,9 +50,9 @@ Si nos entregan tal número, sin contexto alguno, resultaría inútil. Pero es d
 |:----------|:-----------------|:---------------|
 | Chile     | 18261884         | 756102         |
 
-Entendiendo cómo funciona una tabla, contamos con una clara orientación para la utilización de tal número como información sobre algo concreto: La población en Chile. 
+Entendiendo cómo funciona una tabla, contamos con una clara orientación para la utilización de tal número como dato sobre algo concreto: La población en Chile. 
 
-Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato numérico por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
+Además del dato de la población de Chile, contamos con su superficie. Si dividimos el primer dato por el segundo, obtenemos la densidad de la población en Chile. El resultado de aquella división es 24,15267252.
 
 Los números 18261884 y 24,15267252 tienen una diferencia que corresponde apuntar:
 
