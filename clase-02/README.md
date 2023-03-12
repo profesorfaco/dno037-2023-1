@@ -2,7 +2,7 @@
 
 # HTML5 + CSS3 + p5.js
 
-### Teoría (para la clase)
+### Teoría (para la casa)
 
 Ya pudimos reconocer la diferencia entre los lenguajes de descripción y el lenguaje de programación. Para comenzar a profundizar en un lenguaje de programación aprovechamos [p5.js](https://p5js.org/es/):
 
