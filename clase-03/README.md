@@ -22,6 +22,7 @@ A estas funciones podemos agregarle una función previa:
 function preload(){
   //cargas algo antes que se ejecute cualquier cosa
 }
+
 function setup(){
   //colocas acá lo que se ejecuta una única vez
 }
