@@ -36,7 +36,7 @@ En [las referencias de p5.js](https://p5js.org/es/reference/#/p5/preload), esta 
 > La función `preload()` es ejecutada antes de `setup()`, es usada para manejar la carga asíncrona de archivos externos. Si se define una función `preload()`, `setup()` esperará hasta que las llamadas a funciones load hayan terminado. Solo se deben incluir instrucciones de carga dentro de `preload()` (`loadImage`, `loadJSON`, `loadFont`, `loadStrings`, etc).
 
 
-En la clase pasada aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json) que tenía la siguiente estructura:
+En la [clase recién pasada](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) aprovechamos [`loadJSON()`](https://p5js.org/es/reference/#/p5/loadJSON), para obtener [datos de un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json) que tenía la siguiente estructura:
 
 ```
 [
@@ -172,9 +172,9 @@ Paso 10 → Vuelta al Editor de P5.js → https://editor.p5js.org/profesorfaco/s
 
 En casi todos los pasos (exceptuando el 9) tenemos a la vista el [Web Editor de p5.js](https://editor.p5js.org/), que "esconde a la izquierda", en una sección desplegable, 3 documentos: `index.html`, `style.css` y `script.js`. Cada extensión nos informa sobre el lenguaje en uso.
 
-En el mismo [Web Editor de p5.js](https://editor.p5js.org/), podemos hacer una prueba con el JSON de las regiones del país usado en el ejemplo de la clase 2 y mencionado más arriba → https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json
+En el mismo [Web Editor de p5.js](https://editor.p5js.org/), podemos hacer una prueba con el JSON de las regiones del país usado en el ejemplo de la [clase recién pasada](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) y mencionado más arriba → https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json
 
-En el `sketch.js` vamos a pegar lo siguiente:
+En el `sketch.js` que nos muestra [Web Editor de p5.js](https://editor.p5js.org/) vamos a reemplazar lo que ofrece por lo siguiente:
 
 ```
 var datos;
@@ -191,19 +191,24 @@ function setup() {
   console.log(datosArreglados);
 }
 ```
-Al hechar a corre el sketch, corresponde revisar lo que se imprime en la consola.
 
-Ahora intenta resolver, con tal base, la frase 
+Al "darle play" al sketch, algo se imprime en la consola. 
+
+Ahora intenta resolver, con tal base y lo recién revisado, la frase 
 
 > ¿Sabía usted que la región [nombre aleatorio] tiene [número correspondiente] provincias?
 
-Hoy volvemos a tomar datos de [un JSON](https://aves.ninjas.cl/api/birds); con una alternativa aleatoria se definirá una instrucción en una "App de dibujo" a resolver con p5.js. Conviene:
+Luego intenta agregar un botón que al ser presionado sume más de las mismas frases.
 
-- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/); y
+Después de tal ejercicio, pasemos a resolver uno modificado hace un par de días: por la demora de la repuesta de https://aves.ninjas.cl/api/birds, en lugar de ir por datos de aves chilenas, vamos a ir por datos de los digimon https://digimon-api.vercel.app/api/digimon
 
-- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/).
+Conviene:
 
-Cuando tengan ya tengan los documentos en un nuevo repositorio, comenzaremos a examinar cómo funciona esta "App de dibujo".
+- tener a mano la [página de referencias de **p5.js**](https://p5js.org/es/reference/);
+
+- contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/);
+
+- copiar los documentos que se ofrecen en esta carpeta de repositorio en una carpeta en su computador, carpeta que luego abriremos con https://phcode.dev/
 
 En esta clase, además de subir el trabajo al repositorio, habría que subir algunos dibujos al README.md de tu repositorio. Si resuelven eso hoy, sabrán como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04).
 
