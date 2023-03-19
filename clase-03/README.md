@@ -149,25 +149,25 @@ Paso 0 → https://editor.p5js.org/profesorfaco/sketches/FQ5afw5qs
 
 Paso 1 → https://editor.p5js.org/profesorfaco/sketches/0rbqSy5Yl
 
-Paso 2 → un `for` → https://editor.p5js.org/profesorfaco/sketches/hN4MraRVZ
+Paso 2 → con un [`for`](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration#declaraci%C3%B3n_for) → https://editor.p5js.org/profesorfaco/sketches/hN4MraRVZ
 
-Paso 3 → un `forEach` → https://editor.p5js.org/profesorfaco/sketches/iltVqbz1k
+Paso 3 → con un [`forEach`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) → https://editor.p5js.org/profesorfaco/sketches/iltVqbz1k
 
 **Pasemos a una variable que contiene un `[arreglo]` con varios `{objetos}` separados por comas**
 
-Paso 4 → un `for` → https://editor.p5js.org/profesorfaco/sketches/G_EoarCNi
+Paso 4 → con un [`for`](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration#declaraci%C3%B3n_for) → https://editor.p5js.org/profesorfaco/sketches/G_EoarCNi
 
-Paso 5 → un `for` con un ajuste → https://editor.p5js.org/profesorfaco/sketches/Y4-FySKyR
+Paso 5 → con un [`for`](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration#declaraci%C3%B3n_for) y un pequeño ajuste → https://editor.p5js.org/profesorfaco/sketches/Y4-FySKyR
 
-Paso 6 → un `forEach` → https://editor.p5js.org/profesorfaco/sketches/1nUZgvwaX
+Paso 6 → con un [`forEach`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) → https://editor.p5js.org/profesorfaco/sketches/1nUZgvwaX
 
-Paso 7 → un `forEach` y más información → https://editor.p5js.org/profesorfaco/sketches/kcWNc54mU
+Paso 7 → con un [`forEach`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) y algo más de información en el arreglo que contiene objetos → https://editor.p5js.org/profesorfaco/sketches/kcWNc54mU
 
-Paso 8 → un `forEach` y un `if` → https://editor.p5js.org/profesorfaco/sketches/4XOEay_7q
+Paso 8 → con un [`forEach`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), algo más de información en el arreglo que contiene objetos y un [`if…else`](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else) → https://editor.p5js.org/profesorfaco/sketches/4XOEay_7q
 
 **Ahora pasemos a una variable que contiene lo que ofrecer un JSON en línea**
 
-Paso 9 → El JSON → https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-03/ejemplo.json
+Paso 9 → El JSON en línea → https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-03/ejemplo.json
 
 Paso 10 → Vuelta al Editor de P5.js → https://editor.p5js.org/profesorfaco/sketches/8ST5JaJA3
 
@@ -201,7 +201,7 @@ Ahora intenta resolver, con tal base y lo recién revisado, la frase
 
 Luego intenta agregar un botón que al ser presionado sume más de las mismas frases.
 
-Después de tal ejercicio, pasemos a resolver uno modificado hace un par de días: por la demora de la repuesta de https://aves.ninjas.cl/api/birds, en lugar de ir por datos de aves chilenas, vamos a ir por datos de los digimon https://digimon-api.vercel.app/api/digimon
+Después de tal ejercicio, pasemos a resolver uno modificado hace un par de días: Por la demora de la repuesta de https://aves.ninjas.cl/api/birds, en lugar de ir por datos de aves chilenas, vamos a ir por datos de los digimon https://digimon-api.vercel.app/api/digimon
 
 Conviene:
 
