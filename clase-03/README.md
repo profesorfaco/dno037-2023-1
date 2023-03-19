@@ -170,7 +170,7 @@ Paso 9 → El JSON → https://raw.githubusercontent.com/profesorfaco/dno037-202
 
 Paso 10 → Vuelta al Editor de P5.js → https://editor.p5js.org/profesorfaco/sketches/8ST5JaJA3
 
-En casi todos los pasos (exceptuando el 9) tenemos a la vista el Web Editor de p5.js, que "esconde", en un menú desplegable, 3 documentos: `index.html`, `style.css` y `script.js`. Cada extensión nos informa sobre el lenguaje en uso.
+En casi todos los pasos (exceptuando el 9) tenemos a la vista el Web Editor de p5.js, que "esconde a la izquierda", en una sección desplegable, 3 documentos: `index.html`, `style.css` y `script.js`. Cada extensión nos informa sobre el lenguaje en uso.
 
 Hoy volvemos a tomar datos de [un JSON](https://aves.ninjas.cl/api/birds); con una alternativa aleatoria se definirá una instrucción en una "App de dibujo" a resolver con p5.js. Conviene:
 
