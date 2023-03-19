@@ -170,7 +170,32 @@ Paso 9 → El JSON → https://raw.githubusercontent.com/profesorfaco/dno037-202
 
 Paso 10 → Vuelta al Editor de P5.js → https://editor.p5js.org/profesorfaco/sketches/8ST5JaJA3
 
-En casi todos los pasos (exceptuando el 9) tenemos a la vista el Web Editor de p5.js, que "esconde a la izquierda", en una sección desplegable, 3 documentos: `index.html`, `style.css` y `script.js`. Cada extensión nos informa sobre el lenguaje en uso.
+En casi todos los pasos (exceptuando el 9) tenemos a la vista el [Web Editor de p5.js](https://editor.p5js.org/), que "esconde a la izquierda", en una sección desplegable, 3 documentos: `index.html`, `style.css` y `script.js`. Cada extensión nos informa sobre el lenguaje en uso.
+
+En el mismo [Web Editor de p5.js](https://editor.p5js.org/), podemos hacer una prueba con el JSON de las regiones del país usado en el ejemplo de la clase 2 y mencionado más arriba → https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json
+
+En el `sketch.js` vamos a pegar lo siguiente:
+
+```
+var datos;
+var datosArreglados;
+function preload() {
+  datos = loadJSON(
+    "https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-02/regiones.json"
+  );
+}
+function setup() {
+  noCanvas();
+  console.log(datos);
+  datosArreglados = Object.values(datos);
+  console.log(datosArreglados);
+}
+```
+Al hechar a corre el sketch, corresponde revisar lo que se imprime en la consola.
+
+Ahora intenta resolver, con tal base, la frase 
+
+> ¿Sabía usted que la región [nombre aleatorio] tiene [número correspondiente] provincias?
 
 Hoy volvemos a tomar datos de [un JSON](https://aves.ninjas.cl/api/birds); con una alternativa aleatoria se definirá una instrucción en una "App de dibujo" a resolver con p5.js. Conviene:
 
