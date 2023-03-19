@@ -208,7 +208,9 @@ Conviene:
 
 - contar con una extensión que permita ver JSON de manera más ordenada en su navegador web. Para Chrome: [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf?hl=es) o [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=es). Para Firefox: [JSON Lite](https://addons.mozilla.org/es/firefox/addon/json-lite/) o [Basic JSON Formatter](https://addons.mozilla.org/es/firefox/addon/basic-json-formatter/);
 
-- copiar los documentos que se ofrecen en esta carpeta de repositorio en una carpeta en su computador, carpeta que luego abriremos con https://phcode.dev/
+- copiar, en una carpeta de su computador, los documentos que se ofrecen en esta carpeta de repositorio
+
+- cuando la carpeta esté bien ordenada y en lugar accesible en su computador, la abriremos con https://phcode.dev/
 
 En esta clase, además de subir el trabajo al repositorio, habría que subir algunos dibujos al README.md de tu repositorio. Si resuelven eso hoy, sabrán como resolver parte de la [prueba de la próxima clase](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04).
 
