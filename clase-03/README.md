@@ -130,8 +130,11 @@ Tal estructura del JSON implica una forma de consultarlo. Si fuera otra la estru
 
 - Si quiero un dato que está dentro de un arreglo que está dentro de un objeto que, a su vez, está dentro de un arreglo: Lo llamo por su posición después de su nombre y después de su posición.
 
-¡Al principio parece engorroso! Pero así es todo la primera vez que lo enfrentamos: Lo que pasa es pronto se nos olvidan los primeros enfrentamientos con lo engorroso para ir por otros: Difícil es recordar lo engorroso de los trazos de las vocales y consontantes de nuestro nombre de pila que hace mucho tiempo aprendimos a escribir. Con la práctica, la complejidad de cualquier cosa se incorpora hasta no complicarnos más. 
+¡Al principio parece engorroso! Pero así es todo la primera vez que lo enfrentamos.
 
+Lo que pasa es que pronto se nos olvidan los primeros enfrentamientos con lo que supusimos engorroso: Con la práctica, la complejidad de cualquier cosa se *in-corpora* hasta no complicarnos más:
+
+> I distinguish between *complexity* and *complicated*. I use the world "complexity" to describe the state of the world. The word "complicated" describes a state of mind. —Donald A. Norman
 
 - - - - - - - - - - - - -
 
