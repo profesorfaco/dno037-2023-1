@@ -140,7 +140,37 @@ Lo que pasa es que pronto se nos olvidan los primeros enfrentamientos con lo que
 
 ### Práctica (para la clase)
 
-La clase pasada usamos un documento `index.html` y nada más. Toda descripción y programación era contenida en él. En esta clase separamos cada lenguaje de descripción y programación en su propio documento, de extensiones `.html`, `.css` y `.js`
+Para retomar la práctica, aprovechemos algunos [emojis](https://www.w3schools.com/charsets/ref_emoji_smileys.asp) y el [editor de p5.js](https://editor.p5js.org/).
+
+**Partamos con una variable que contiene un `[arreglo]` con varios `"strings"` separados por comas**
+
+Paso 0 → https://editor.p5js.org/profesorfaco/sketches/FQ5afw5qs
+
+Paso 1 → https://editor.p5js.org/profesorfaco/sketches/0rbqSy5Yl
+
+Paso 2 → un `for` → https://editor.p5js.org/profesorfaco/sketches/hN4MraRVZ
+
+Paso 3 → un `forEach` → https://editor.p5js.org/profesorfaco/sketches/iltVqbz1k
+
+**Pasemos a una variable que contiene un `[arreglo]` con varios `{objetos}` separados por comas**
+
+Paso 4 → un `for` → https://editor.p5js.org/profesorfaco/sketches/G_EoarCNi
+
+Paso 5 → un `for` con un ajuste → https://editor.p5js.org/profesorfaco/sketches/Y4-FySKyR
+
+Paso 6 → un `forEach` → https://editor.p5js.org/profesorfaco/sketches/1nUZgvwaX
+
+Paso 7 → un `forEach` y más información → https://editor.p5js.org/profesorfaco/sketches/kcWNc54mU
+
+Paso 8 → un `forEach` y un `if` → https://editor.p5js.org/profesorfaco/sketches/4XOEay_7q
+
+**Ahora pasemos a una variable que contiene lo que ofrecer un JSON en línea**
+
+Paso 9 → El JSON → https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-03/ejemplo.json
+
+Paso 10 → Vuelta al Editor de P5.js → https://editor.p5js.org/profesorfaco/sketches/8ST5JaJA3
+
+En casi todos los pasos (exceptuando el 9) tenemos a la vista el Web Editor de p5.js, que "esconde", en un menú desplegable, 3 documentos: `index.html`, `style.css` y `script.js`. Cada extensión nos informa sobre el lenguaje en uso.
 
 Hoy volvemos a tomar datos de [un JSON](https://aves.ninjas.cl/api/birds); con una alternativa aleatoria se definirá una instrucción en una "App de dibujo" a resolver con p5.js. Conviene:
 
