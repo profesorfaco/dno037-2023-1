@@ -199,9 +199,11 @@ Ahora intenta resolver, con tal base y lo recién revisado, la frase
 
 > ¿Sabía usted que la región [nombre aleatorio] tiene [número correspondiente] provincias?
 
-Luego intenta agregar un botón que al ser presionado sume más de las mismas frases.
+Si lo puedes resolver, sube un nivel: Después de la pregunta, agregar "Tales provincias son:", seguido de un despliegue cada nombre de provincia en [una lista ordenada con numeración](https://developer.mozilla.org/es/docs/Web/HTML/Element/ol)
 
-Después de tal ejercicio, pasemos a resolver uno modificado hace un par de días: Por la demora de la repuesta de https://aves.ninjas.cl/api/birds, en lugar de ir por datos de aves chilenas, vamos a ir por datos de los digimon https://digimon-api.vercel.app/api/digimon
+Y si buscas un desafío más: Agrega un botón que al ser presionado sume más de las mismas frases, pero de manera ordenada (una región tras otra, partiendo en Arica y Parinacota).
+
+Después de tales desafíos, pasemos a revisar [el código que está preparado en esta carpeta](https://profesorfaco.github.io/dno037-2023/clase-03/), que fue modificado hace un par de días: Por la demora de la repuesta de https://aves.ninjas.cl/api/birds, en lugar de ir por datos de aves chilenas, vamos a ir por datos de los digimon https://digimon-api.vercel.app/api/digimon
 
 Conviene:
 
