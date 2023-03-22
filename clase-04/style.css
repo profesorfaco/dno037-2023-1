@@ -1,8 +1,15 @@
 @charset "UTF-8";
 
-* { margin: 0; padding: 0; }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-html, body { min-height: 100%; }
+html,
+body {
+    min-height: 100%;
+    cursor:crosshair;
+}
 
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -11,49 +18,122 @@ body {
 }
 
 main {
-    width: 90vw;
-    margin: 0;
-    padding: 5vw;
+    width: 50vw;
+    padding: 5vh 5vw;
+    float: left;
+}
+
+aside {
+    width: 40vw;
+    padding: 0;
+    float: right;
+}
+
+@media (orientation: portrait) {
+    main {
+        width: 80vw;
+    }
+    aside {
+        width: 90vw;
+    }
 }
 
 h1 {
-    line-height: 1;
-    font-size: calc(1.25rem + 1.25vw);
-    margin:1rem 0 2rem -0.1rem;
+    margin-left: -0.25rem;
 }
-
-p { line-height: 1.5; font-size: calc(1rem + 0.5vw); margin-top: calc(0.5rem + 0.25vw)}
-
-@media (min-width:599px){ p { max-width:600px; } }
 
 a {
-    color: #000;
-    opacity: 0.75;
+    color: #222;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#000;
+}
+
+footer a{
     text-decoration: none;
-    transition: all ease .3s;
 }
 
-a:hover {
-    color: #000;
-    opacity: 1;
-    transition: all ease .2s;
+p {
+    line-break: 1.8;
+    margin-bottom: 0.8rem;
+    font-size:1.4rem;
 }
 
-div a {
-    background: #ccc;
-    box-shadow: 1px 1px 3px #aaa;
-    padding: 0.4rem 1rem;
-    border-radius: 1.2rem;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
+p:first-of-type {
+    margin-top: 5vw;
 }
 
-div#next a{
+p#accept{
+    margin-top:2rem;
+    margin-left:-0.3rem;
+    font-size:1.1rem;
+}
+
+p#accept a{
+    text-decoration: none;
+    background: #eee;
+    box-shadow: 2px 2px 3px #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    line-height: 1rem;
+}
+
+p#accept a:hover {
+    background: #ddd;
+    box-shadow: 1px 1px 2px #bbb;
+}
+
+
+/* Lo que sigue se usa sólo en page.html  */
+
+header,
+footer {
+    width: 90vw;
+    margin: 0;
+    padding: 5vh 5vw;
+}
+
+footer {
     position: absolute;
-    bottom:3rem;
-    right:3rem;
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>');
-    background-repeat:no-repeat;
-    background-position: 95% center;
-    padding-right:2.5rem;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div a {
+    display: block;
+    background: #eee;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+    padding: 0.5rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+footer div a:hover {
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+}
+
+footer div#controles {
+    background: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.2);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+}
+
+footer div#controles input[type="color"] {
+    border: none;
+    background: #fff;
+    padding: 3px 5px;
+    width: 2rem;
+}
+
+footer div#controles input[type="range"] {
+    width: 4rem;
+    margin: 0 0.5rem;
 }

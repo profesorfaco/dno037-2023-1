@@ -5,42 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Diseño y nuevos medios" />
         <link href="style.css" rel="stylesheet" />
-        <title>DNO037</title>
+        <title>DNO037 | Evaluación Nº1</title>
     </head>
     <body>
-
         <main>
-            <h1>¿Quieres dibujar un <span id="name">[NOMBRE DE DIGIMON]</span>?</h1>
-            <p>Siendo las <span id="time">[HH:MM]</span> hrs., te desafío a dibujar un Digimon en la siguiente página.</p> 
+            <h1>¿Quieres dibujar a <span id="title"></span>?</h1>
+            <p>Siendo las <span id="time"></span> hrs., te desafío a dibujar a este digimon en la <span id="next"></span>.</p>
             <p>¡Pero tienes que dibujarlo de memoria! Una vez aceptes el desafío, no podrás volver a verlo.</p>
-            <p>Cuando tengas listo tu dibujo, me lo podrías enviar para que yo arme una galería de resultados.</p>
+            <p id="accept"></p>
         </main>
-
-        <div id="next"></div>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+        <aside></aside>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            var data, digimon, x;
-            var seleccion = [];
-            function preload(){
-                data=loadJSON("https://digimon-api.vercel.app/api/digimon");
+            var datos;
+            var datosArreglados;
+            var x;
+            var lasHoras = "HH";
+            var losMinutos = "MM";
+
+            function preload() {
+                datos = loadJSON("https://digimon-api.vercel.app/api/digimon");
             }
             function setup() {
-                digimon = Object.values(data);
-                digimon.forEach(d => {
-                    if(d.level == "In Training" || d.level == "Rookie" || d.level == "Fresh"){
-                    seleccion.push(d);
-                    }
-                });
-                console.log(seleccion);
-                x = Math.round(random(0,seleccion.length-1));
-                createA("page.html?data="+seleccion[x].name, "Si, quiero dibujar a "+ seleccion[x].name).parent("next");
-                if(windowWidth > 599){
-                    createImg(seleccion[x].img,'the p5 magenta asterisk').position(windowWidth-360, 60).style('z-index','-1');
-                } else {
-                    createImg(seleccion[x].img,'the p5 magenta asterisk').position(20, windowHeight-400).style('z-index','-1');
-                }
+                datosArreglados = Object.values(datos);
+                //un aleatorio entre 0 y los elementos del arreglo
+                x = Math.floor(random(0, (datosArreglados.length)-1));
+                select("#title").html("NombreDelDigimon");
+                select("#time").html(lasHoras + ":" + losMinutos);
+                var elAside = select("aside");
+                createImg(datosArreglados[x].img).parent(elAside).style("width", "100%");
+                createA("page.html?data=" + "NombreDelDigimon", "siguiente página").parent("next");
+                createA("page.html?data=" + "NombreDelDigimon", "Acepto, dibujaré a " + "NombreDelDigimon" + " 💰").parent("accept");
                 noCanvas();
             }
         </script>
