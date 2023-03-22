@@ -199,7 +199,7 @@ Ahora intenta resolver, con tal base y lo recién revisado, la frase
 
 > ¿Sabía usted que la región [nombre aleatorio] tiene [número correspondiente] provincias?
 
-Si lo puedes resolver, sube un nivel: Después de la pregunta, agrega "Tales provincias son:", seguido de un despliegue de cada nombre de provincia en [una lista ordenada con numeración](https://developer.mozilla.org/es/docs/Web/HTML/Element/ol)
+Si lo puedes resolver, sube un nivel: Después de la pregunta, agrega "Tales provincias son:", seguido de un despliegue de cada nombre de provincia en [una lista ordenada con numeración](https://developer.mozilla.org/es/docs/Web/HTML/Element/ol) --- acá lo resolví: https://editor.p5js.org/profesorfaco/sketches/aC_LKgNk7
 
 Y si buscas un desafío más: Agrega un botón que al ser presionado sume más de las mismas frases, pero de manera ordenada (una región tras otra, partiendo en Arica y Parinacota).
 
