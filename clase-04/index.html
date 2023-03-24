@@ -10,7 +10,7 @@
     <body>
         <main>
             <h1>¿Quieres dibujar a <span id="title"></span>?</h1>
-            <p>Siendo las <span id="time"></span> hrs., te desafío a dibujar a este digimon en la <span id="next"></span>.</p>
+            <p>Siendo las <span id="time"></span> hrs., te desafío a dibujar a este digimon de nivel <span id="level"></span> en la <span id="next"></span>.</p>
             <p>¡Pero tienes que dibujarlo de memoria! Una vez aceptes el desafío, no podrás volver a verlo.</p>
             <p id="accept"></p>
         </main>
@@ -32,6 +32,7 @@
                 x = Math.floor(random(0, (datosArreglados.length)-1));
                 select("#title").html("NombreDelDigimon");
                 select("#time").html(lasHoras + ":" + losMinutos);
+                select("#level").html("NivelDelDigimon");
                 var elAside = select("aside");
                 createImg(datosArreglados[x].img).parent(elAside).style("width", "100%");
                 createA("page.html?data=" + "NombreDelDigimon", "siguiente página").parent("next");
