@@ -74,6 +74,36 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+|	N°	|	Apellidos	|	GitHub Pages	|
+|	:--------:	|	:----------------------------	|	:-----------------	|
+|	1	|	ANAIZ SANTANDER	|	https://majoanaiz.github.io/clase_01/	|
+|	2	|	BOFARULL PARDO	|	https://jbofarull.github.io/Clase-1/	|
+|	3	|	BRAVO FREDERICK	|	https://tbravofr.github.io/clase-1/	|
+|	4	|	CAMINO LIRA	|	—	|
+|	5	|	CASTELLI YANKOVIC	|	https://rafaelcastelli.github.io/clase-1/	|
+|	6	|	CASTILLO ESPEJO	|	https://emicastilloe.github.io/clase01/	|
+|	7	|	CHACÓN GONZÁLEZ	|	https://josefinachag.github.io/clase-01-dno/index.html	|
+|	8	|	IBÁÑEZ WRAGG	|	https://teirotauroteiro.github.io/clase1/	|
+|	9	|	MELO WILLIAMS	|	—	|
+|	10	|	MIGLIARO ROMAGNOLI	|	https://isabellamiro.github.io/Clase01-DNO/	|
+|	11	|	MOLIN AGUAD	|	https://javimolin-uc.github.io/CLASE-01/	|
+|	12	|	MONTALBETTI FAHRENKROG	|	https://trini-mf.github.io/clase-01-dnm/	|
+|	13	|	MONTERO ALCALDE	|	https://mjmonteroa.github.io/clase01/	|
+|	14	|	MUÑOZ GARCÍA	|	https://madumunoz.github.io/DNMedios-clase01/	|
+|	15	|	NIEDMANN LIPSKI	|	https://fniedmann.github.io/clase_01/	|
+|	16	|	NILO MANN	|	—	|
+|	17	|	PEREZ QUISPE	|	—	|
+|	18	|	ROMÁN SÁNCHEZ	|	https://romancito-psd.github.io/clase-01/	|
+|	19	|	RUIZ ARDILES	|	https://daniruiza.github.io/Clase-01/	|
+|	20	|	SCHLEGEL LÓPEZ	|	https://aleschlegel.github.io/clase-01/	|
+|	21	|	SEURA PASTENE	|	—	|
+|	22	|	SOLOVERA LAZO	|	https://colitodesign.github.io/Clase-1-nuevosmedios/	|
+|	23	|	TOLEDO ICARTE	|	—	|
+|	24	|	URIBE VÁSQUEZ	|	—	|
+|	25	|	URREA VECCHIOLA	|	—	|
+|	26	|	VARGAS VÉLIZ	|	https://vakku3.github.io/Clase_01/	|
+|	27	|	VILDÓSOLA ESPALIAT	|	https://florenciavildosolae.github.io/dnm-clase01/	|
+
 - - - - - - - 
 
 ###### [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02)
