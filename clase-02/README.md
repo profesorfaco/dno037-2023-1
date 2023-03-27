@@ -144,6 +144,36 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+|	N°	|	Apellidos	|	GitHub Pages	|
+|	:--------:	|	:----------------------------	|	:-----------------	|
+|	1	|	ANAIZ SANTANDER	|	https://majoanaiz.github.io/clase-02	|
+|	2	|	BOFARULL PARDO	|	https://jbofarull.github.io/clase-2/	|
+|	3	|	BRAVO FREDERICK	|	https://tbravofr.github.io/clase-2/	|
+|	4	|	CAMINO LIRA	|	—	|
+|	5	|	CASTELLI YANKOVIC	|	—	|
+|	6	|	CASTILLO ESPEJO	|	https://emicastilloe.github.io/clase-02/	|
+|	7	|	CHACÓN GONZÁLEZ	|	https://josefinachag.github.io/clase-02-dno/	|
+|	8	|	IBÁÑEZ WRAGG	|	—	|
+|	9	|	MELO WILLIAMS	|	—	|
+|	10	|	MIGLIARO ROMAGNOLI	|	https://isabellamiro.github.io/clase-2-dno/	|
+|	11	|	MOLIN AGUAD	|	https://javimolin-uc.github.io/CLASE-02/	|
+|	12	|	MONTALBETTI FAHRENKROG	|	https://trini-mf.github.io/clase-02-dnm/	|
+|	13	|	MONTERO ALCALDE	|	https://mjmonteroa.github.io/clase02/	|
+|	14	|	MUÑOZ GARCÍA	|	https://madumunoz.github.io/DNMedios-clase02/	|
+|	15	|	NIEDMANN LIPSKI	|	https://fniedmann.github.io/clase_02/	|
+|	16	|	NILO MANN	|	—	|
+|	17	|	PEREZ QUISPE	|	—	|
+|	18	|	ROMÁN SÁNCHEZ	|	https://romancito-psd.github.io/clase-02/	|
+|	19	|	RUIZ ARDILES	|	https://daniruiza.github.io/clase-02/	|
+|	20	|	SCHLEGEL LÓPEZ	|	https://aleschlegel.github.io/clase-02/	|
+|	21	|	SEURA PASTENE	|	—	|
+|	22	|	SOLOVERA LAZO	|	https://colitodesign.github.io/Clase2-nuevosmedioss/	|
+|	23	|	TOLEDO ICARTE	|	—	|
+|	24	|	URIBE VÁSQUEZ	|	—	|
+|	25	|	URREA VECCHIOLA	|	—	|
+|	26	|	VARGAS VÉLIZ	|	https://vakku3.github.io/Clase_02/	|
+|	27	|	VILDÓSOLA ESPALIAT	|	https://florenciavildosolae.github.io/dnm-clase02/	|
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-01) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-03)
