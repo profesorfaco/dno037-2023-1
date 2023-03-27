@@ -227,6 +227,36 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio incompleto es evaluado con 0 punto.
 
+|	N°	|	Apellidos	|	GitHub Pages	|
+|	:--------:	|	:----------------------------	|	:-----------------	|
+|	1	|	ANAIZ SANTANDER	|	https://majoanaiz.github.io/clase_03/	|
+|	2	|	BOFARULL PARDO	|	https://jbofarull.github.io/clase-03/	|
+|	3	|	BRAVO FREDERICK	|	—	|
+|	4	|	CAMINO LIRA	|	—	|
+|	5	|	CASTELLI YANKOVIC	|	—	|
+|	6	|	CASTILLO ESPEJO	|	https://emicastilloe.github.io/clase-03-/	|
+|	7	|	CHACÓN GONZÁLEZ	|	https://josefinachag.github.io/clase-03/	|
+|	8	|	IBÁÑEZ WRAGG	|	—	|
+|	9	|	MELO WILLIAMS	|	—	|
+|	10	|	MIGLIARO ROMAGNOLI	|	—	|
+|	11	|	MOLIN AGUAD	|	—	|
+|	12	|	MONTALBETTI FAHRENKROG	|	https://trini-mf.github.io/clase-03-dnm/	|
+|	13	|	MONTERO ALCALDE	|	https://mjmonteroa.github.io/clase-03/	|
+|	14	|	MUÑOZ GARCÍA	|	https://madumunoz.github.io/DNMedios-clase03/	|
+|	15	|	NIEDMANN LIPSKI	|	https://fniedmann.github.io/clase_03/	|
+|	16	|	NILO MANN	|	—	|
+|	17	|	PEREZ QUISPE	|	—	|
+|	18	|	ROMÁN SÁNCHEZ	|	https://romancito-psd.github.io/clase-03/	|
+|	19	|	RUIZ ARDILES	|	https://daniruiza.github.io/clase-03/	|
+|	20	|	SCHLEGEL LÓPEZ	|	https://aleschlegel.github.io/clase-03/	|
+|	21	|	SEURA PASTENE	|	—	|
+|	22	|	SOLOVERA LAZO	|	https://colitodesign.github.io/Clase-3-nuevosmedios/	|
+|	23	|	TOLEDO ICARTE	|	—	|
+|	24	|	URIBE VÁSQUEZ	|	https://catalinauribev.github.io/Clase-03	|
+|	25	|	URREA VECCHIOLA	|	—	|
+|	26	|	VARGAS VÉLIZ	|	https://vakku3.github.io/Clase-03/index.html	|
+|	27	|	VILDÓSOLA ESPALIAT	|	https://florenciavildosolae.github.io/dnm-clase03/	|
+
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04)
