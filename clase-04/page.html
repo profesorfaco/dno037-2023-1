@@ -17,7 +17,43 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js" integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-            //A las 10.00 hrs. del 29/03/2023 agregaré algo acá.
+            var palabra_pasada = "NombreDelDigimon";
+            var elColor;
+            var elSlider;
+
+            function setup() {
+                var title = select("header");
+                createElement("h1", "Aceptaste dibujar a " + palabra_pasada).parent(title);
+                var descarga = select("#descargar");
+                descarga.mousePressed(EstaNoEs);
+                var borra = select("#borrar");
+                borra.mousePressed(EstaNoEs);
+                elColor = createColorPicker("#000000").parent("controles");
+                elSlider = createSlider(1, 5, 3).parent("controles");
+                createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
+                background("#ddd");
+            }
+
+            function draw() {
+                stroke(elColor.color());
+                strokeWeight(elSlider.value());
+                if (mouseIsPressed) {
+                    //aquí falta algo
+                }
+            }
+
+            function descargador() {
+                saveCanvas(palabra_pasada, "jpg");
+            }
+
+            function borrador() {
+                //aquí también falta algo
+            }
+
+            function EstaNoEs(){
+                select("h1").html("Esta no es la función para tal mousePressed");
+                background(random(0,255),random(0,255),random(0,255));
+            }
         </script>
     </body>
 </html>
