@@ -17,9 +17,8 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 
 ### Para entregar:
 
-**Ingrese respuesta en este foro de Canvas: PENDIENTE**
+**Ingrese al foro de Canvas y deje su comentario**: https://cursos.canvas.uc.cl/courses/53610/discussion_topics/580262
 
-Es necesario que indique dos direcciones, una de su repositorio (Ej: https://github.com/user/repo) y otra de su página en línea (Ej: https://user.github.io/repo)
 
 - - - - - - - 
 
