@@ -8,9 +8,9 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Pendiente hasta el 29/03/2023 | 1.0 |
-| Pendiente hasta el 29/03/2023 | 1.0 |
-| Pendiente hasta el 29/03/2023 | 1.0 |
+| **index.html** & **page.html →** Modifica cada uno de los emojis por aquel que ofrezca una mejor relación con la acción del botón (0,25 por la pertinencia de cada emoji) | 1.0 |
+| **index.html →** Usando la consulta al [JSON](https://digimon-api.vercel.app/api/digimon), modifica cada "NombreDelDigimon", sea que esté a la vista (0,25) o en los vínculos a la siguiente página (0,25); modifica también el "NivelDelDigimon" (0,25). Además, programa el despliegue del momento en que se carga la página, considerando horas y minutos (0,25) | 1.0 |
+| **page.html →** Haz que descargar (0,25) y borrar todo (0,25) ejecuten las funciones que les corresponde. Además, aprovechando la función del descargar, pide a 5 personas que te compartan sus dibujos, los que tendrás que subir al README.md junto con la imagen original del digimon dibujado (0,1 por cada par dibujo-original). | 1.0 |
 | Puntos acumulados por trabajo desarrollado entre las clases 1 y 3 | 3.0 |
 | Punto base | 1.0 |
 | TOTAL  | 7.0 |
