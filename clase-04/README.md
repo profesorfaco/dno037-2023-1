@@ -17,7 +17,7 @@ Cada estudiante cuenta con el horario de clases para publicar, con GitHub Pages,
 
 ### Para entregar:
 
-**Ingrese al foro de Canvas y deje su comentario**: https://cursos.canvas.uc.cl/courses/53610/discussion_topics/580262
+**Ingrese al foro de Canvas y deje su respuesta**: https://cursos.canvas.uc.cl/courses/53610/discussion_topics/580262
 
 
 - - - - - - - 
