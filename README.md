@@ -96,7 +96,7 @@ Esta modalidad NO aplica en:
 
 ### Nota final
 
-**25%** → puntos acumulados entre clases 2 y 3 + puntaje obtenido en evaluación Nº1 (clase 4)
+**25%** → puntos acumulados entre clases 1 y 3 + puntaje obtenido en evaluación Nº1 (clase 4)
 
 **25%** → puntos acumulados entre clases 5 y 8 + puntaje obtenido en evaluación Nº2 (clase 9)
 
