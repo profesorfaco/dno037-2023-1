@@ -12,12 +12,11 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
 | Instrucción/descripción |  Puntaje | 
 |:------------------------|:--------:|
-| Pendiente hasta el 26/04/2023 | 1.0 |
-| Pendiente hasta el 26/04/2023 | 1.0 |
-| Pendiente hasta el 26/04/2023 | 1.0 |
-| Puntos acumulados por trabajo desarrollado entre las clases 5 y 7 | 3.0 |
+| Pendiente hasta el 26/04/2023 | 2.0 |
+| Pendiente hasta el 26/04/2023 | 2.0 |
+| Puntos acumulados previamente | 2.0 |
 | Punto base | 1.0 |
-| TOTAL  | 7.0 |
+| NOTA  | 7.0 |
 
 - - - - - - - - - - - - -
 
