@@ -1,0 +1,82 @@
+[
+  {
+		"region": "Arica y Parinacota",
+		"hombres": 8117,
+		"mujeres": 9898
+	},
+	{
+		"region": "Tarapacá",
+		"hombres": 20360,
+		"mujeres": 23286
+	},
+	{
+		"region": "Antofagasta",
+		"hombres": 28604,
+		"mujeres": 34059
+	},
+	{
+		"region": "Atacama",
+		"hombres": 4226,
+		"mujeres": 4572
+	},
+	{
+		"region": "Coquimbo",
+		"hombres": 7381,
+		"mujeres": 7360
+	},
+	{
+		"region": "Valparaíso",
+		"hombres": 20586,
+		"mujeres": 19580
+	},
+	{
+		"region": "Metropolitana",
+		"hombres": 243502,
+		"mujeres": 243066
+	},
+	{
+		"region": "O'Higgins",
+		"hombres": 6962,
+		"mujeres": 6280
+	},
+	{
+		"region": "Maule",
+		"hombres": 5773,
+		"mujeres": 5007
+	},
+	{
+		"region": "Ñuble",
+		"hombres": 1987,
+		"mujeres": 1749
+	},
+	{
+		"region": "Biobío",
+		"hombres": 6094,
+		"mujeres": 6050
+	},
+	{
+		"region": "La Araucanía",
+		"hombres": 5298,
+		"mujeres": 5376
+	},
+	{
+		"region": "Los Ríos",
+		"hombres": 1926,
+		"mujeres": 1842
+	},
+	{
+		"region": "Los Lagos",
+		"hombres": 4898,
+		"mujeres": 5136
+	},
+	{
+		"region": "Aysén",
+		"hombres": 932,
+		"mujeres": 1151
+	},
+	{
+		"region": "Magallanes y la Antártica Chilena",
+		"hombres": 2103,
+		"mujeres": 2611
+	}
+]
