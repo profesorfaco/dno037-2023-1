@@ -1,9 +1,10 @@
-async function visualizacion() {
+async function tercero() {
     const consulta = await fetch("https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv");
     const data = await consulta.text();
     const filas = data.split("\n");
     const fechas = filas[0].split(",").slice(1);
     const activos = filas[5].split(",").slice(1);
+    //Ahora puedo armar el gráfico
     new Chart(document.querySelector("#covid").getContext("2d"), {
         type: "bar",
         data: {
@@ -24,7 +25,11 @@ async function visualizacion() {
                 legend: { display: false },
                 title: { display: true, text: "CASOS ACTIVOS DE COVID-19 EN CHILE" },
             },
+            responsive: true,
+            layout: {
+                padding: 20,
+            },
         },
     });
 }
-visualizacion().catch((error) => console.error(error));
+tercero().catch((error) => console.error(error));
