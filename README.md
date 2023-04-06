@@ -43,15 +43,15 @@ Cada estudiante en este OPR debe contar con:
 
 Considerando los días **miércoles** entre 8 de marzo y 28 de junio, resulta **el siguiente clase a clase:**
 
-[Clase 01 → 08/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-01) → HTML5 + CSS3 + p5.js
+[Clase 01 → 08/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-01) → HTML5 + CSS3 + p5.js ✓
 
-[Clase 02 → 15/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) → HTML5 + CSS3 + p5.js
+[Clase 02 → 15/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-02) → HTML5 + CSS3 + p5.js ✓
 
-[Clase 03 → 22/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-03) → HTML5 + CSS3 + p5.js
+[Clase 03 → 22/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-03) → HTML5 + CSS3 + p5.js ✓
 
-**[Clase 04 → 29/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04) → Evaluación Nº1**
+**[Clase 04 → 29/03/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04) → Evaluación Nº1 ✓**
 
-[Clase 05 → 05/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS
+[Clase 05 → 05/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-05) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
 [Clase 06 → 12/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JS
 
