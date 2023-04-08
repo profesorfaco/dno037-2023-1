@@ -46,48 +46,39 @@ Ahora, si necesitamos datos, podemos volver a aprovechar aquellos que ya se ofre
 
 Una vez sean obtenidos los datos mediante el [uso de Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), podemos estructurarlos  a la manera que convenga al [tipo de gráfico](https://www.chartjs.org/docs/latest/charts/?h=type).
 
-Podemos, por ejemplo, tomar datos de un JSON y luego organizarlos para definir lo que corresponda a cada eje en un gráfico de barras, como se hace en el el script-1.js en la carpeta de la clase de hoy: 
+Podemos, por ejemplo, tomar datos de [un JSON](https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-06/datos.json) y luego organizarlos en función del gráfico, como se hace en el script-1.js en la carpeta de la clase de hoy: 
 
 ```
-async function todo() {
-    const consulta = await fetch("https://swapi.dev/api/people/?page=1&format=json");
+async function primero() {
+    const consulta = await fetch("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-06/datos.json");
     const data = await consulta.json();
-    let nombres = [];
-    let estaturas = [];
-    data.results.forEach((s) => {
-        nombres.push(s.name);
-        estaturas.push(s.height);
+    //Declaro variables que parten con un arreglo vacío
+    let regiones = [];
+    let hombres = [];
+    let mujeres = [];
+    //Reviso data y empujo un elemento a cada arreglo que estaba vacío
+    data.forEach((x) => {
+        regiones.push(x.region);
+        hombres.push(x.hombres);
+        mujeres.push(x.mujeres);
     });
-
-    new Chart(document.getElementById("starwars"), {
-        type: "bar",
-        data: {
-            labels: nombres,
-            datasets: [
-                {
-                    label: "StarWars",
-                    data: estaturas,
-                    backgroundColor: "#78909c",
-                },
-            ],
-        }
-    });
+    //Ahora puedo armar el gráfico
+    new Chart(document.getElementById("regiones"), {···});
 }
-todo().catch((error) => console.error(error));
+primero().catch((error) => console.error(error));
 ```
 
-También podemos tomar los datos de un GeoJSON y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo. Por ejemplo, puedo tomar la información de todos los movimientos telúricos 4.5+ registrados e [informados por la USGS](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). En el GeoJSON que usamos en el `script-2.js`, nos encontramos el detalle de cuántos movimientos telúricos 4.5+ han ocurrido en el mundo el último mes:
-
+También podemos tomar los datos de [un GeoJSON](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson) y contarlos bajo ciertas condiciones, para luego visualizar los números que resulten del conteo, como se hace en el script-2.js en la carpeta de la clase de hoy:
 
 ```
-async function todo() {
+async function segundo() {
     const consulta = await fetch("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson");
     const data = await consulta.json();
-    //Declaro variables que parten en cero;
+    //Declaro variables que parten en cero
     let chileno = 0;
     let japones = 0;
     let otro = 0;
-    //Con un forEach reviso todo el contenido con algunas condiciones
+    //Reviso data con alguna condiciones
     data.features.forEach((t) => {
         if (t.properties.place.includes("Chile")) {
             chileno = chileno + 1;
@@ -102,18 +93,10 @@ async function todo() {
     //Empujo a la variable los resultados del contador
     numeros.push(chileno, japones, otro);
     var nombres = ["En Chile", "En Japón", "En el resto del mundo"];
-    //Los colores los tomé de https://color.adobe.com/es/create/image
-    var colores = ["#1c313a", "#455a64", "#718792"];
     //Ahora puedo armar el gráfico
-    new Chart(document.getElementById("earthquakes").getContext("2d"), {
-        type: "doughnut",
-        data: {
-            labels: nombres,
-            datasets: [{ label: "Earthquakes", data: numeros, backgroundColor: colores }],
-        },
-    });
+    new Chart(document.getElementById("earthquakes").getContext("2d"), {···});
 }
-todo().catch((error) => console.error(error));
+segundo().catch((error) => console.error(error));
 ```
 
 **Hasta aquí hemos tomado datos desde un JSON (JavaScript Objecto Notation). En el primer ejemplo de código tomamos los números desde las mismas opciones de datos ofrecidos y en los otros ejemplos creamos números contando los datos ofrecidos**.
@@ -148,36 +131,16 @@ En un repositorio de GitHub un CSV (bien escrito) se muestra en tablas, pero en 
 El CSV en *raw* es el que tenemos que usar para hacer el `fetch()`. Así se muestra en el `script-3.js` preparado para la clase:
 
 ```
-async function visualizacion() {
+async function tercero() {
     const consulta = await fetch("https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv");
     const data = await consulta.text();
     const filas = data.split("\n");
     const fechas = filas[0].split(",").slice(1);
     const activos = filas[5].split(",").slice(1);
-    new Chart(document.querySelector("#covid").getContext("2d"), {
-        type: "bar",
-        data: {
-            labels: fechas,
-            datasets: [{ data: activos, backgroundColor: "#455a64" }],
-        },
-        options: {
-            scales: {
-                y: {
-                    ticks: {
-                        callback: function (numero) {
-                            return numero.toLocaleString("es-CL");
-                        },
-                    },
-                },
-            },
-            plugins: {
-                legend: { display: false },
-                title: { display: true, text: "CASOS ACTIVOS DE COVID-19 EN CHILE" },
-            },
-        },
-    });
+    //Ahora puedo armar el gráfico
+    new Chart(document.querySelector("#covid").getContext("2d"), {···});
 }
-visualizacion().catch((error) => console.error(error));
+tercero().catch((error) => console.error(error));
 ```
 
 Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta` a `data`. Ese traspaso ya no se trata como `json()` sino un `txt()`. Ahora, como se trata de un TXT, tenemos que usar varias veces el [método split()](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/split) para explicarle cómo tratar a ciertos caracteres.
@@ -190,7 +153,7 @@ Para mencionar una alternativa a fetch de un CSV, podría aprovecharse la biblio
 
 ### Práctica
 
-En el index.html de la carpeta hay un cuarto script sin explicación, que exploraremos de manera práctica. Los demás scripts ya explorados (en teoría), tendrán que se modificados para datos distintos con los que construir las visualizaciones.
+En el index.html se muestra el resultado de los scripts ya explorados (en teoría). Exploremos las consultas por partes, para poder hacer modificaciones respecto de lo que se muestra.
 
 Como siempre, el ejercicio se completa cuando cada estudiante publica su resultado [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
