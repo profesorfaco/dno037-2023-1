@@ -147,13 +147,13 @@ Noten la diferencia en la línea que sigue al fetch, esa que traspasa `consulta`
 
 Parte de lo recién presentado queda mejor explicado en [el segundo de los videos de Daniel Shiffman](https://youtu.be/RfMkdvN-23o?t=172) enlistados más arriba.
 
-Para mencionar una alternativa a fetch de un CSV, podría aprovecharse la biblioteca [Papa Parse](https://www.papaparse.com/) - *The powerful, in-browser CSV parser for big boys and girls*.
-
 - - - - - - -
 
 ### Práctica
 
-En el index.html se muestra el resultado de los scripts ya explorados (en teoría). Exploremos las consultas por partes, para poder hacer modificaciones respecto de lo que se muestra.
+En el [index.html](https://profesorfaco.github.io/dno037-2023/clase-06/) se muestra el resultado de los scripts ya explorados (en teoría). 
+
+Exploremos las consultas por partes, para poder hacer modificaciones respecto de lo que se muestra.
 
 Como siempre, el ejercicio se completa cuando cada estudiante publica su resultado [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
