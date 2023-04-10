@@ -16,11 +16,11 @@
             <article>
                 <p>Usemos datos de <a href="https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-06/datos.json">un JSON</a>. Tales datos fueron extraídos de una tabla sobre Inmigrantes internacionales según región de residencia habitual y sexo. La tabla está incluida en el informe sobre <a href="http://www.censo2017.cl/descargas/inmigracion/181123-documento-migracion.pdf" target="_blank">Características de la inmigración internacional en Chile</a> (INE, 2017).</p>
                 <canvas id="regiones" width="400" height="300"></canvas>
-                <p>Ahora estamos probando <a href="https://www.chartjs.org/">Chart.js v3</a>, una biblioteca de JavaScript distinta de p5.js. Ya NO podemos cargar datos con un <a href="https://p5js.org/es/reference/#/p5/loadJSON">loadJSON()</a>. Desde hoy usaremos la <a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch">API Fetch</a> de JavaScript.</p>
+                <p>Ahora estamos probando <a href="https://www.chartjs.org/">Chart.js</a>, una biblioteca de JavaScript distinta de p5.js. Ya NO podemos cargar datos con un <a href="https://p5js.org/es/reference/#/p5/loadJSON">loadJSON()</a>. Desde hoy usaremos la <a href="https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch">API Fetch</a> de JavaScript.</p>
             </article>
             <article>
                 <hr />
-                <p>El gráfico que sigue consulta datos de <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_month.geojson">un GeoJSON</a>. Tales datos describen todos los movimientos telúricos sobre 4.5M registrados por la USGS en el último mes.</p>
+                <p>El gráfico que sigue consulta datos de <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">un GeoJSON</a>. Tales datos describen todos los movimientos telúricos sobre 4.5M registrados por la USGS en el último mes.</p>
                 <div>
                     <canvas id="earthquakes" width="400" height="400"></canvas>
                 </div>
@@ -28,7 +28,7 @@
             </article>
             <article>
                 <hr />
-                <p>Para el gráfico que sigue usamos <a href="https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto5/TotalesNacionales.csv">un CSV</a> con las cifras nacionales y oficiales relacionadas con el Covid-19. En este caso también tomamos los datos con la API Fetch de JavaScript.
+                <p>Para el gráfico que sigue usamos <a href="https://github.com/MinCiencia/Datos-COVID19/blob/master/output/producto5/TotalesNacionales.csv">un CSV</a> con las cifras nacionales y oficiales relacionadas con el Covid-19. En este caso también tomamos los datos con la API Fetch de JavaScript.
                 </p>
                 <canvas id="covid" width="400" height="200"></canvas>
             </article>
