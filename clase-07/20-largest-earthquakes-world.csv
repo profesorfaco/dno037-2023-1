@@ -1,4 +1,4 @@
-Position,Mag,Name,Date (UTC),Time (UTC),Latitude,Longitude,References
+Position,Mag,Name,Date,Time,Latitude,Longitude,References
 1,9.5,Valdivia Earthquake,1960-05-22,19:11,38.14°S,73.41°W,"Kanamori & Anderson, 1975"
 2,9.2,"1964 Great Alaska Earthquake, Prince William Sound Earthquake, Good Friday Earthquake",1964-03-28,3:36,60.91°N,147.34°W,"Kanamori & Anderson, 1975"
 3,9.1,"Sumatra-Andaman Islands Earthquake, 2004 Sumatra Earthquake and Tsunami, Indian Ocean Earthquake",2004-12-26,0:58,3.30°N,95.98°E,"Duputel et al., 2012"
