@@ -59,7 +59,7 @@ Las opciones de selectores y acciones son descritas detalladamente en https://ap
 
 Ya avanzada la segunda década del 2000, cuando casi no se habla de sitios sino aplicaciones web, podría ser necesario exigir a las bibliotecas de JavaScript algo más que simplificarnos la tarea de manipular el DOM y hacer transiciones animadas. 
 
-Tanto corresponde exigirles que, a veces, el concepto de biblioteca (*library*) se hace insuficiente y el que se usa es el conceptos de marco de trabajo (*framework*).
+Tanto corresponde exigirles que, a veces, el concepto de biblioteca (*library*) queda chico, y se cambia por marco de trabajo (*framework*).
 
 Hay 3 frameworks de JavaScript importantes en la actualidad:
 
