@@ -55,6 +55,23 @@ Con la última instrucción de jQuery, el cambio de color sobre todos los elemen
 
 Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
+#### NOTA AL MARGEN
+
+Ya avanzada la segunda década del 2000, cuando casi no se habla de sitios sino aplicaciones web, podría ser necesario exigir a las bibliotecas de JavaScript algo más que simplificarnos la tarea de manipular el DOM y hacer transiciones animadas. 
+
+Tanto corresponde exigirles que, a veces, el concepto de biblioteca (*library*) se hace insuficiente y el que se usa es el conceptos de marco de trabajo (*framework*).
+
+Hay 3 frameworks de JavaScript importantes en la actualidad:
+
+- React → https://es.reactjs.org/
+
+- Angular → https://angular.io/
+
+- Vue.js → https://vuejs.org/
+
+**Si fuera de su interés comenzar a explorar uno de estos *frameworks*, sería muy recomendable partir por acá: https://vuejs.org/tutorial/**
+
+Es que Vue.js es un Framework de JavaScript progresivo. No debes transformar todo tu código fuente a su particular redacción. Al contrario, puedes mantenerte muy cerca de los estándares de los lenguajes de descripción y programación para Web que vamos aprendiendo, y desde ahí aprovechar, progresivamente, lo que tal framework ofrece.
 
 - - - - - - -
 
