@@ -61,9 +61,9 @@ Tales selectores y acciones podrían verse tan breves como algunos métodos de J
 
 Las versiones más recientes de este lenguaje modernizado son comprendidas por la mayoría de los navegadores. Pero no por todos los navegadores que siguen siendo usados. Por ejemplo: Hasta el año 2017 Internet Explorer no entendía a la [API Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API) (lo que revisamos la clase recién pasada), pero ya desde el año 2020 el jefe de seguridad de Microsoft, Chris Jackson, ha recomendado no usarlo más y cambiarse a Edge (otro navegador de Microsoft, que [ya pudo superar a Firefox, pero está lejos de alcanzar a Chrome](https://gs.statcounter.com/browser-market-share)).
 
-Y con el ejemplo del párrafo anterior podríamos encontrarle sentido a seguir usando jQuery: Podría haber personas usando Internet Explorer en un computador que no se ha actualizado por años. En tal caso sería preferible usar un [`jQuery.getJSON()`](https://api.jquery.com/jQuery.getJSON/#jQuery-getJSON-url-data-success) o un [`jQuery.get()`](https://api.jquery.com/jquery.get/) antes que un [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), como se hace en este ejemplo: 
+Y con el ejemplo del párrafo anterior podríamos encontrarle sentido a seguir usando jQuery: Podría haber personas usando Internet Explorer en un computador que no se ha actualizado por años. En tal caso sería preferible usar un [`jQuery.getJSON()`](https://api.jquery.com/jQuery.getJSON/#jQuery-getJSON-url-data-success) o un [`jQuery.get()`](https://api.jquery.com/jquery.get/) antes que un [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch), como se hace en **este ejemplo**: 
 
-https://profesorfaco.github.io/dno037-2023/clase-07/ejemplo/
+**https://profesorfaco.github.io/dno037-2023/clase-07/ejemplo/**
 
 - - - - - - - - -
 
