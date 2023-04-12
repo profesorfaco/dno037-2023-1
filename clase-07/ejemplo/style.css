@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #ddd;
+    background: #222;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+div.container {
+    padding: 0 5vw 5vh;
+}
+
+header,
+footer {
+    padding: 4% 2%;
+}
+
+header h1 {
+    font-size: calc(2rem + 1vw);
+    line-height: 1.1;
+    max-width: 80%;
+}
+
+header div {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section article {
+    width: 16%;
+    margin: 1%;
+    padding: 1%;
+    background: rgba(60, 60, 60, 0.5);
+    border-radius: 5px 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+section article h2 {
+    font-size: calc(3rem + 2vw);
+    line-height: 1;
+}
+
+section article p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
+@media (max-width: 767.98px) {
+    header,
+    footer {
+        padding: 5%;
+    }
+
+    section article {
+        width: 40%;
+        margin: 2%;
+        padding: 3%;
+    }
+}
+
+footer p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SÓLO PARA INDEX */
+
+#opciones {
+    top: 1rem;
+    right: 1rem;
+    position: fixed;
+    padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+    border-radius: 5px 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* SÓLO PARA PAGE */
+
+table {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 98%;
+    margin: 1%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgba(60, 60, 60, 0.5);
+    font-weight: bold;
+    font-size: 110%;
+}
+tbody {
+    background: rgba(60, 60, 60, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+}
+td {
+    text-align: center;
+    padding: 0.4rem 0.8rem;
+}
+
+thead td {
+    border-bottom: 2px solid #222;
+    padding: 0.6rem 0.8rem;
+}
+
+tbody td {
+    border-top: 1px solid #222;
+}
+
+td:first-child {
+    text-align: left;
+    width:50%;
+}

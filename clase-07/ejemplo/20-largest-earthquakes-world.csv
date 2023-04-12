@@ -1,0 +1,21 @@
+Position,Mag,Name,Date,Time,Latitude,Longitude,References
+1,9.5,Valdivia Earthquake,1960-05-22,19:11,38.14°S,73.41°W,"Kanamori & Anderson, 1975"
+2,9.2,"1964 Great Alaska Earthquake, Prince William Sound Earthquake, Good Friday Earthquake",1964-03-28,3:36,60.91°N,147.34°W,"Kanamori & Anderson, 1975"
+3,9.1,"Sumatra-Andaman Islands Earthquake, 2004 Sumatra Earthquake and Tsunami, Indian Ocean Earthquake",2004-12-26,0:58,3.30°N,95.98°E,"Duputel et al., 2012"
+4,9.1,Tohoku Earthquake,2011-03-11,5:46,38.30°N,142.37°E,"Duputel et al., 2012"
+5,9.0,"Kamchatka, Russia",1952-11-04,16:58,52.62°N,159.78°E,"Kanamori, 1976"
+6,8.8,Maule Earthquake,2010-02-27,6:34,36.12°S,72.90°W,"Duputel et al., 2012"
+7,8.8,1906 Ecuador–Colombia Earthquake,1906-01-31,15:36,0.96°N,79.37°W,"Kanamori, 1977"
+8,8.7,Rat Islands Earthquake,1965-02-04,5:01,51.25°N,178.72°E,"Kanamori & Anderson, 1975"
+9,8.6,"Assam, Tibet",1950-08-15,14:09,28.36°N,96.45°E,"Kanamori, 1977"
+10,8.6,Off the West Coast of Northern Sumatra,2012-04-11,8:39,2.33°N,93.06°E,"Duputel et al., 2012"
+11,8.6,Nias Earthquake,2005-03-28,16:10,2.09°N,97.11°E,NEIC
+12,8.6,"Andrean of Islands, Aleutian Islands, Alaska",1957-03-09,14:23,51.50°N,175.63°W,"Johnson et al., 1994"
+13,8.6,"Unimak Island Earthquake, Alaska",1946-04-01,12:29,53.49°N,162.83°W,"Lopez & Okal, 2006"
+14,8.5,Banda Sea,1938-02-01,19:04,5.05°S,131.61°E,"Okal & Reymond, 2003"
+15,8.5,Chile-Argentina Border,1922-11-11,4:33,28.29°S,69.85°W,"Kanamori, 1977"
+16,8.5,Kuril Islands,1963-10-13,5:18,44.87°N,149.48°E,"Kanamori & Anderson, 1975"
+17,8.4,"Kamchatka, Russia",1923-02-03,16:02,54.49°N,160.47°E,"Okal, 1992"
+18,8.4,"Southern Sumatra, Indonesia",2007-09-12,11:10,4.44°S,101.37°E,NEIC
+19,8.4,"Arequipa, Peru Earthquake",2001-06-23,20:33,16.27°S,73.64°W,"Duputel et al., 2012"
+20,8.4,"Sanriku, Japan",1933-03-02,17:31,39.21°N,144.59°E,"Kanamori, 1971"
