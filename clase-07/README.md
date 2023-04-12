@@ -55,7 +55,7 @@ Con la última instrucción de jQuery, el cambio de color sobre todos los elemen
 
 Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-Hasta el año 2017 Internet Explorer no entendía a Fetch API (lo que revisamos la clase recién pasada). A mediados de 2020, Internet Archive eliminó la última versión de Internet Explorer de su lista de navegadores compatibles,y el jefe de seguridad de Microsoft, Chris Jackson, recomendaba no usarlo más. Entonces, el que no lo entendía ya  desapareció, pero corresponde recordar que el cuarto de hora de fama de jQuery es mucho anterior a 2017, por eso ofrece algo como un Fetch que exploraremos en [los documentos preparados para la práctica](https://profesorfaco.github.io/dno037-2023/clase-07/).
+Hasta el año 2017 Internet Explorer no entendía a Fetch API (lo que revisamos la clase recién pasada). A mediados de 2020, Internet Archive eliminó la última versión de Internet Explorer de su lista de navegadores compatibles, y el jefe de seguridad de Microsoft, Chris Jackson, recomendaba no usarlo más. Entonces, el que no lo entendía ya  desapareció, pero corresponde recordar que el cuarto de hora de fama de jQuery es mucho anterior a 2017, por eso aún nos ofrece algo como un Fetch que exploraremos en [los documentos preparados para la práctica](https://profesorfaco.github.io/dno037-2023/clase-07/).
 
 #### NOTA AL MARGEN
 
