@@ -46,7 +46,7 @@
         <script>
             $(function () {
                 var data;
-                $.get("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-07/20-largest-earthquakes-world.csv").done(function (csv) {
+                $.get("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-07/ejemplo/20-largest-earthquakes-world.csv").done(function (csv) {
                     data = $.csv.toObjects(csv);
                     console.log(data);
                     //un forEach para construir cada fila en el cuerpo de la tabla
