@@ -10,7 +10,7 @@ Como ya sabemos, en las variables podemos almacenar valores numéricos. Estos va
 
 **[Chart.js](https://www.chartjs.org/docs/latest/charts/?h=type) nos permite implementar tales gráficos desde su promesa de ser *Simple yet flexible JavaScript charting for designers & developers*. Al ubicarse con simpleza y flexibilidad entre dos extremos, podría llegar a incomodar a *designers* que quieran personalizar cada pequeño detalle y también a *developers* que necesitan visualizar una ingente cantidad de datos**. Lo que haremos será generar gráficos sencillos, complicándonos en la preparación de los datos por visualizar. 
 
-Para poder usar la biblioteca de Charts.js v3 corresponde reconocer sus partes: 
+Para poder usar la biblioteca de Charts.js corresponde reconocer sus partes: 
 
 ```
 var contexto = document.getElementById('nombre');
