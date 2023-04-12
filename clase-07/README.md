@@ -30,7 +30,7 @@ Ahora bien, usando [jQuery](https://jquery.com/), basta con escribir:
 $(".media").css("color","red");
 ```
 
-Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse: ¡No conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca! Esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
+Para la primera década del 2000, [jQuery](https://jquery.com/) ofrecía una simplificación radical en el trabajo con JavaScript. Pero en los años más recientes el mismo lenguaje ha tendido a simplificarse, ha hacerse más moderno como veremos líneas más abajo: ¡No conviene perder de vista esta tendencia por prestarle mucha atención a la biblioteca! Esto sería casi como olvidar el modo correcto de escribir algunas palabras por prestarle mucha atención a las abreviaciones de mensajería instantánea.
 
 Hecha la advertencia, agreguemos un nivel más al ejemplo para poder entender el uso de la biblioteca: 
 
