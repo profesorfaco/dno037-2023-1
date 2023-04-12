@@ -53,9 +53,16 @@ document.querySelector("#cambio").addEventListener("click", enrojece);
 
 Con la última instrucción de jQuery, el cambio de color sobre todos los elementos de clase "media" se hace al presionar el botón de identidad "cambio". Y ya resulta evidente que la clave del uso de [jQuery](https://jquery.com/) está en la concatenación de un selector y una acción: `$(selector).action()`. 
 
-Las opciones de selectores y acciones son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
+Las opciones de selectores y acciones puede encontrarse en este *torpedo*: https://htmlcheatsheet.com/jquery/
 
-Hasta el año 2017 Internet Explorer no entendía a Fetch API (lo que revisamos la clase recién pasada). A mediados de 2020, Internet Archive eliminó la última versión de Internet Explorer de su lista de navegadores compatibles, y el jefe de seguridad de Microsoft, Chris Jackson, recomendaba no usarlo más. Entonces, el que no lo entendía ya  desapareció, pero corresponde recordar que el cuarto de hora de fama de jQuery es mucho anterior a 2017, por eso aún nos ofrece algo como un Fetch que exploraremos en [los documentos preparados para la práctica](https://profesorfaco.github.io/dno037-2023/clase-07/).
+Tales selectores y acciones podrían verse tan breves como algunos métodos de JavaScript moderno; no es descabellado pensar que jQuery, que por años ha sido [la biblioteca de JavaScript más popular](https://kinsta.com/blog/javascript-libraries/#the-most-popular-javascript-libraries), haya inspirado más de alguna modificación reciente en JavaScript (en el lenguaje a secas):
+
+> A partir del año 2015, se marcó un antes y un después en el mundo de Javascript, estableciendo una serie de cambios que lo transformarían en un lenguaje moderno ([Versiones de ECMAScript](https://lenguajejs.com/javascript/introduccion/ecmascript/#versiones-de-ecmascript))
+
+Las versiones más recientes de este lenguaje moderno son comprendidas por la mayoría de los navegadores. Pero no por todos los navegadores que siguen siendo usados. Por ejemplo: Hasta el año 2017 Internet Explorer no entendía a la [API Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API) (lo que revisamos la clase recién pasada), pero ya desde el año 2020 el jefe de seguridad de Microsoft, Chris Jackson, ha recomendado no usarlo más y cambiarse a Edge (otro navegador de Microsoft, que [ya pudo superar a Firefox, pero está lejos de alcanzar a Chrome](https://gs.statcounter.com/browser-market-share)).
+
+Y con el ejemplo del párrafo anterior podríamos encontrarle sentido a seguir usando jQuery: Podría haber personas usando Internet Explorer en un computador que no se ha actualizado por años. En tal caso sería más seguro usar un [`jQuery.getJSON()`](https://api.jquery.com/jQuery.getJSON/#jQuery-getJSON-url-data-success) que un [`fetch()`](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch). 
+
 
 #### NOTA AL MARGEN
 
