@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Lorem ipsum dolor sit amet",
+        "fotos": ["https://picsum.photos/id/1/500/310", "https://picsum.photos/id/2/500/310", "https://picsum.photos/id/3/500/310"],
+        "soporte": "industrial",
+        "abstract": "Consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "Lorem ipsum dolor sit amet",
+        "fotos": ["https://picsum.photos/id/10/500/310", "https://picsum.photos/id/11/500/310", "https://picsum.photos/id/12/500/310"],
+        "soporte": "industrial",
+        "abstract": "Consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "Lorem ipsum dolor sit amet",
+        "fotos": ["https://picsum.photos/id/20/500/310", "https://picsum.photos/id/21/500/310", "https://picsum.photos/id/22/500/310"],
+        "soporte": "industrial",
+        "abstract": "Consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "Lorem ipsum dolor sit amet",
+        "fotos": ["https://picsum.photos/id/30/500/310", "https://picsum.photos/id/31/500/310", "https://picsum.photos/id/32/500/310"],
+        "soporte": "industrial",
+        "abstract": "Consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    },
+    {
+        "nombre": "Lorem ipsum dolor sit amet",
+        "fotos": ["https://picsum.photos/id/40/500/310", "https://picsum.photos/id/41/500/310", "https://picsum.photos/id/42/500/310"],
+        "soporte": "industrial",
+        "abstract": "Consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat laoreet tellus quis ullamcorper. Suspendisse sit amet blandit urna. Integer et mollis odio. Phasellus a arcu urna. Nunc efficitur commodo risus, at sagittis dui accumsan at. Nunc est augue, auctor a odio sed, dapibus iaculis est. Sed ultrices luctus purus ac venenatis. Mauris ac lectus eu felis fermentum facilisis et a nunc. Cras pretium suscipit nibh sed finibus. Donec risus neque, efficitur in sollicitudin vestibulum, cursus gravida dui. Suspendisse dui nulla, convallis non facilisis a, convallis lobortis tortor. Nam nec eros fringilla, ultrices velit in, dapibus magna. Proin at pretium arcu. Donec convallis justo nulla, et ultrices sem fringilla non. In eget mi lectus"
+    }
+
+]
