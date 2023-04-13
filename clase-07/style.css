@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ body {
 }
 
 a {
-    color: rgba(0, 20, 40, 0.8);
+    color: rgba(0, 20, 40, 0.75);
     text-decoration: none;
 }
 
@@ -98,7 +97,6 @@ section article p {
 section article small {
     padding:0.75rem;
     display: block;
-    text-align: right;
 }
 
 section div {
