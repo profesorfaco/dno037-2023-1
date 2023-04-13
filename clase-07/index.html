@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Diseño y nuevos medios" />
+        <link href="style.css" rel="stylesheet" />
+        <title>DNO037</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1><a href="index.html">Nombre Apellido</a></h1>
+                <select name="select" id="opciones">
+                    <option>Diseño</option>
+                    <option value="editorial">Diseño editorial</option>
+                    <option value="industrial">Diseño industrial</option>
+                    <option value="servicios">Diseño de servicios</option>
+                    <option value="ux">Diseño UX</option>
+                </select>
+            </header>
+            <main>
+                <section></section>
+            </main>
+            <footer>
+                <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
+            </footer>
+        </div>
+
+        <!--Primero vamos a buscar la versión más reciente de jQuery-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--Y ahora podemos usarlo-->
+        <script>
+            $(function () {
+                $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-07/datos.json", function (data) {
+                    console.log(data);
+                    //un forEach para construir cada trabajo
+                    data.forEach(function (t, i) {
+                        $("section").append(
+                            '<article class="' + t.soporte + '"><img src="' + t.fotos[0] + '"><h2><a href="single.html?nro=' + i + '">' + t.nombre + "</a></h2><p>" + t.abstract + "</p><small>#" + t.soporte + "</small></article>"
+                        );
+                    });
+                    //algo más para interactuar con el menú
+                    var valor;
+                    $("#opciones").change(function () {
+                        valor = $("select").val();
+                        if (valor == "editorial") {
+                            $(".editorial").fadeTo("slow", 1);
+                            $(".industrial, .servicios, .ux").fadeTo("slow", 0.1);
+                        } else if (valor == "industrial") {
+                            $(".industrial").fadeTo("slow", 1);
+                            $(".editorial, .servicios, .ux").fadeTo("slow", 0.1);
+                        } else if (valor == "servicios") {
+                            $(".servicios").fadeTo("slow", 1);
+                            $(".editorial, .industrial, .ux").fadeTo("slow", 0.1);
+                        } else if (valor == "ux") {
+                            $(".ux").fadeTo("slow", 1);
+                            $(".editorial, .industrial, .servicios").fadeTo("slow", 0.1);
+                        } else {
+                            $(".editorial, .industrial, .servicios, .ux").fadeTo("slow", 1);
+                        }
+                    });
+                }); // cierro $.getJSON((){});
+            }); //cierro $(function(){});
+        </script>
+    </body>
+</html>
