@@ -19,21 +19,25 @@
                 <p><a href="#">Nombre Apellido</a> <a href="#">DNO037</a></p>
             </footer>
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+
+        <!--Primero vamos a buscar la versión más reciente de jQuery-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--Y ahora podemos usarlo-->
         <script>
-            Papa.parse("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-08/datos.csv", {
-                download: true,
-                header: true,
-                dynamicTyping: true,
-                complete: function (respuesta) {
-                    var peliculas = respuesta.data;
-                    console.log(peliculas);
-                    peliculas.forEach(function(pelicula,i){
-                        document.querySelector("main").innerHTML += "<article><a href='pelicula.html?nro=" + i + "'><img src='images/" + pelicula.pic_sm + "'><div><h2>" + pelicula.name + "</h2></div></article>";
-                    })
-            }
-        });
-        </script>
+            $(function () {
+                $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-08/datos.json", function (data) {
+                    console.log(data);
+                    //un forEach para construir cada trabajo
+                    data.forEach(function (p, i) {
+                        $("main").append("<article><a href='pelicula.html?nro=" + i + "'><img src='images/" + p.pic_sm + "'><div><h2>" + p.name + "</h2></div></article>");
+                    });
+                }); // cierro $.getJSON((){});
+            }); //cierro $(function(){});
         </script>
     </body>
 </html>
