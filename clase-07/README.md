@@ -65,8 +65,6 @@ Y con el ejemplo del párrafo anterior podríamos encontrarle sentido a seguir u
 
 **https://profesorfaco.github.io/dno037-2023/clase-07/ejemplo/**
 
-- - - - - - - - -
-
 #### NOTA AL MARGEN
 
 Ya avanzada la segunda década del 2000, cuando casi no se habla de sitios sino aplicaciones web, podría ser necesario exigir a las bibliotecas de JavaScript algo más que simplificarnos la tarea de manipular el DOM y hacer transiciones animadas. 
