@@ -92,7 +92,7 @@ Es que Vue.js es un Framework de JavaScript progresivo. No debes transformar tod
 
 La práctica estará enfocada en jQuery, por lo que conviene tener a la manos las opciones de selectores y acciones que son descritas detalladamente en https://api.jquery.com/, y de manera muy abreviada en https://htmlcheatsheet.com/jquery/
 
-Usaremos datos reales de movimientos telúricos registrados por la USGS: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php, porque existe la posibilidad de que tengamos información precisa sobre un temblor que pueda darse durante el horario de clase.
+[Con jQuery prepararemos un portafolio](https://profesorfaco.github.io/dno037-2023/clase-07/). Su preparación servirá de adelanto a la prueba de la próxima semana.
 
 El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023/clase-07/).
 
