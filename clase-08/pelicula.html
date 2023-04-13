@@ -23,20 +23,13 @@
         </div>
 
         <!--Primero vamos a buscar la versión más reciente de jQuery-->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!--Y ahora podemos usarlo-->
         <script>
             $(function () {
                 var n = new URLSearchParams(window.location.search).get("nro");
-
                 $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-08/datos.json", function (data) {
                     console.log(data);
-
                     if (n !== null) {
                         $("section").append("<h1>" + data[n].name + "</h1><h4>" + data[n].director + " (" + data[n].year + ')</h4><img src="images/' + data[n].pic_lg + '"><p>' + data[n].description + '</p><h3>Trailer</h3><p>Puedes ver algunas escenas de la película en <a href="' + data[n].trailer + '" target="_blank">Youtube</a><p>');
                     } else {
