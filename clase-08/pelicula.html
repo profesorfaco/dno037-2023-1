@@ -38,21 +38,7 @@
                     console.log(data);
 
                     if (n !== null) {
-                        $("section").append(
-                            "<h1>" +
-                                data[n].name +
-                                "</h1><h4>" +
-                                data[n].director +
-                                " (" +
-                                data[n].year +
-                                ')</h4><img src="images/' +
-                                data[n].pic_lg +
-                                '"><p>' +
-                                data[n].description +
-                                '</p><h3>Trailer</h3><p>Puedes ver algunas escenas de la película en <a href="' +
-                                data[n].trailer +
-                                '" target="_blank">Youtube</a><p>'
-                        );
+                        $("section").append("<h1>" + data[n].name + "</h1><h4>" + data[n].director + " (" + data[n].year + ')</h4><img src="images/' + data[n].pic_lg + '"><p>' + data[n].description + '</p><h3>Trailer</h3><p>Puedes ver algunas escenas de la película en <a href="' + data[n].trailer + '" target="_blank">Youtube</a><p>');
                     } else {
                         document.querySelector("section").innerHTML = '<h1>Algo salió mal. Pero R2D2 lo reparará</h1><h4>Por favor, vuelve a escoger cualquiera de las <a href="peliculas.html">películas</a></h4>';
                         document.body.style.backgroundPosition = "bottom right";
