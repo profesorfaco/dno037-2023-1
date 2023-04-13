@@ -94,7 +94,7 @@ La práctica estará enfocada en jQuery, por lo que conviene tener a la manos la
 
 [Con jQuery prepararemos un portafolio](https://profesorfaco.github.io/dno037-2023/clase-07/). Su preparación servirá de adelanto a la evaluación Nº2.
 
-El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023/clase-07/).
+**El ejercicio se completa cuando cada estudiante publica, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), su versión ajustada del sitio web contenido en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023/clase-07/)**.
 
 El ejercicio completo puede ser evaluado con:
 
