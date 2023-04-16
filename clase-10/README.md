@@ -11,17 +11,17 @@ Con [Bootstrap](https://getbootstrap.com/) puedes implementar tanto prototipos r
 Hay distintas maneras de comenzar a trabajar con Boostrap v5.3. Nosotros podemos partir con una adaptación de la [Starter template](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start), con un documento HTML que debe verse así: 
 
 ```
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DNO037</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>DNO037</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
 </html>
 ```
 
@@ -58,9 +58,9 @@ Para más detalles sobre tamaños, conviene consultar directamente a la document
 
 ### Práctica
 
-Los archivos contenidos en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023/clase-10/index.html) servirán de base para un "remake" de su prueba. 
+Los archivos contenidos en [esta carpeta de repositorio](https://profesorfaco.github.io/dno037-2023/clase-10/index.html) servirán de base para un "remake" del portafolio, preparado en la clase previa a la evaluación Nº2.
 
-Para completar este "remake" conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
+Para completar este "remake" conviene tener a mano la [documentación de Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
 
 El ejercicio se completa cuando cada estudiante publique, [con GitHub Pages](https://docs.github.com/es/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site), lo preparado en https://profesorfaco.github.io/dno037-2023/clase-10/
 
