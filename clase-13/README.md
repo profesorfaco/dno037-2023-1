@@ -8,14 +8,15 @@ Descargue el [Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfo
 
 Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 
-| criterio | descripción             | pts. |
-|:----:|:----------------------------|:----:|
-| A    | Pendiente | P |
-| B    | Pendiente |  P |
-| C    | Pendiente | P |
-| D    | Pendiente | P |
-| E    | Pendiente |  P |
-| E    | Puntos acumulados |  P |
+| Instrucción/descripción |  Puntaje | 
+|:------------------------|:--------:|
+| Pendiente hasta el 31/05/2023 | 1.0 |
+| Pendiente hasta el 31/05/2023 | 1.0 |
+| Pendiente hasta el 31/05/2023 | 1.0 |
+| Pendiente hasta el 31/05/2023 | 1.0 |
+| Puntos acumulados previamente | 2.0 |
+| Punto base | 1.0 |
+| NOTA  | 7.0 |
 
 Puede hacerse de un punto extra con una reducción razonada de la carpeta del tema descargado.
 
