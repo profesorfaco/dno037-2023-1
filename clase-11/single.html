@@ -11,7 +11,7 @@
                 backdrop-filter: blur(0.5rem);
             }
             footer {
-                background: #A67788;
+                background: #cc5490;
             }
         </style>
         <title>Nombre Apellido</title>
@@ -36,13 +36,13 @@
         </nav>
         <!--Sección sin identidad-->
         <section>
-            <div class="container my-5 py-5">
+            <div class="container my-5 pt-5">
                 <div class="row row-cols-1 row-cols-lg-2 g-4" id="trabajos"></div>
             </div>
         </section>
         <!--Complemento lateral-->
         <aside>
-            <div class="container pb-5">
+            <div class="container pb-4">
                 <div class="row">
                     <div class="col-6" id="back"></div>
                     <div class="col-6 text-end" id="next"></div>
@@ -72,12 +72,12 @@
                 });
                 //Necesito una condición para pasar a trabajo anterior o siguiente si lo hubiera
                 if (n < 1) {
-                    document.querySelector("#next").innerHTML = '<a href="single.html?nro=' + (n + 1) + '">siguiente &rarr;</a>';
+                    document.querySelector("#next").innerHTML = '<a href="single.html?nro=' + (n + 1) + '" class="btn btn-sm btn-outline-secondary">siguiente &rarr;</a>';
                 } else if (n > 0 && n < cuantos - 1) {
-                    document.querySelector("#back").innerHTML = '<a href="single.html?nro=' + (n - 1) + '">&larr; anterior</a>';
-                    document.querySelector("#next").innerHTML = '<a href="single.html?nro=' + (n + 1) + '">siguiente &rarr;</a>';
+                    document.querySelector("#back").innerHTML = '<a href="single.html?nro=' + (n - 1) + '" class="btn btn-sm btn-outline-secondary">&larr; anterior</a>';
+                    document.querySelector("#next").innerHTML = '<a href="single.html?nro=' + (n + 1) + '" class="btn btn-sm btn-outline-secondary">siguiente &rarr;</a>';
                 } else {
-                    document.querySelector("#back").innerHTML = '<a href="single.html?nro=' + (n - 1) + '">&larr; anterior</a>';
+                    document.querySelector("#back").innerHTML = '<a href="single.html?nro=' + (n - 1) + '" class="btn btn-sm btn-outline-secondary">&larr; anterior</a>';
                 }
             } //ahora cierro la creación de la función asincrónica
             portfolio().catch((error) => console.error(error));
