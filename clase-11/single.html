@@ -36,6 +36,15 @@
             </div>
         </section>
 
+        <aside>
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-6" id="back"></div>
+                    <div class="col-6 text-end" id="next"></div>
+                </div>
+            </div>            
+        </aside>
+
         <!-- El pie de página-->
         <footer class="py-4 bg-dark">
             <div class="container px-5"><p class="text-center text-white small">Nombre Apellido &copy; 2023</p></div>
@@ -54,8 +63,24 @@
                     data[n].fotos.forEach((x) => {
                         document.querySelector("#trabajos").innerHTML += '<div class="col"><img src="' + x + '" class="w-100 rounded shadow-sm"></div>';
                     });
+
+                    if(n < 1){
+                        document.querySelector("#next").innerHTML = '<a href="single.html?nro='+(Number(n)+1)+'">siguiente &rarr;</a>'
+                    }
+
+                    if(n > 0 && n < 7){
+                        document.querySelector("#back").innerHTML =  '<a href="single.html?nro='+(Number(n)-1)+'">&larr; anterior</a>'
+                        document.querySelector("#next").innerHTML =  '<a href="single.html?nro='+(Number(n)+1)+'">siguiente &rarr;</a>'
+                    }
+
+                    if(n == 7){
+                        document.querySelector("#back").innerHTML =  '<a href="single.html?nro='+(Number(n)-1)+'">&larr; anterior</a>'
+                    }
+
                 } else {
-                    document.querySelector("#trabajos").innerHTML = '<div class="col"><h2>😓 <a href="index.html">Algo salió mal</a></h2></div>';
+                    document.querySelector("#trabajos").innerHTML = '<div class="col"><h2>😓 <a href="index.html" class="link-secondary">Algo salió mal</a></h2></div>';
+                    document.querySelector("#trabajos").style.height = "60vh";
+
                 }
             }
             portfolio().catch((error) => console.error(error));
