@@ -13,10 +13,9 @@
                 <h1><a href="index.html">Nombre Apellido</a></h1>
                 <select name="select" id="opciones">
                     <option>Diseño</option>
+                    <option value="digital">Diseño digital</option>
                     <option value="editorial">Diseño editorial</option>
                     <option value="industrial">Diseño industrial</option>
-                    <option value="servicios">Diseño de servicios</option>
-                    <option value="ux">Diseño UX</option>
                 </select>
             </header>
             <main>
@@ -39,24 +38,21 @@
                             '<article class="' + t.soporte + '"><img src="' + t.fotos[0] + '"><h2><a href="single.html?nro=' + i + '">' + t.nombre + "</a></h2><p>" + t.abstract + "</p><small>#" + t.soporte + "</small></article>"
                         );
                     });
-                    //algo más para interactuar con el menú
+                    //una función para interactuar con el menú
                     var valor;
                     $("#opciones").change(function () {
                         valor = $("select").val();
-                        if (valor == "editorial") {
+                        if (valor == "digital") {
+                            $(".digital").fadeTo("slow", 1);
+                            $(".editorial, .industrial").fadeTo("slow", 0.1);
+                        } else if (valor == "editorial") {
                             $(".editorial").fadeTo("slow", 1);
-                            $(".industrial, .servicios, .ux").fadeTo("slow", 0.1);
+                            $(".digital, .industrial").fadeTo("slow", 0.1);
                         } else if (valor == "industrial") {
                             $(".industrial").fadeTo("slow", 1);
-                            $(".editorial, .servicios, .ux").fadeTo("slow", 0.1);
-                        } else if (valor == "servicios") {
-                            $(".servicios").fadeTo("slow", 1);
-                            $(".editorial, .industrial, .ux").fadeTo("slow", 0.1);
-                        } else if (valor == "ux") {
-                            $(".ux").fadeTo("slow", 1);
-                            $(".editorial, .industrial, .servicios").fadeTo("slow", 0.1);
+                            $(".digital, .editorial").fadeTo("slow", 0.1);
                         } else {
-                            $(".editorial, .industrial, .servicios, .ux").fadeTo("slow", 1);
+                            $(".digital, .editorial, .industrial").fadeTo("slow", 1);
                         }
                     });
                 }); // cierro $.getJSON((){});

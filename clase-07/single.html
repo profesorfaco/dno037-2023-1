@@ -25,13 +25,16 @@
         <!--Y ahora podemos usarla-->
         <script>
             $(function () {
+                //partimos tal como en la clase 2 o en la evaluación Nº1
                 var n = new URLSearchParams(window.location.search).get("nro");
+                //ponemos una condición
                 if (n != null) {
+                    //ahora vamos por los datos
                     $.getJSON("https://raw.githubusercontent.com/profesorfaco/dno037-2023/main/clase-07/datos.json", function (data) {
                         console.log(data);
-                        //el detalle de un trabajo
+                        //no es necesario el forEach para mostrar el detalle de un trabajo
                         $("section").append("<div><h2>" + data[n].nombre + "</a></h2><p>" + data[n].texto + "</p><small>#" + data[n].soporte + "</small></div>");
-                        //un forEach para cada foto del trabajo
+                        //si es necesario para mostrar todas sus fotos
                         data[n].fotos.forEach((x) => {
                             $("section").append('<div><img src="' + x + '"></div>');
                         });
@@ -39,6 +42,7 @@
                 } else {
                     $("section").html('<div><h2>😓 <a href="index.html">Algo salió mal</a></h2></div>').css("min-height", "70vh");
                 }
+                //lo que sigue es algo de CSS para el botón
                 $("button").css("cursor","pointer");
             }); //cierro $(function(){});
         </script>
