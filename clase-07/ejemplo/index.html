@@ -28,17 +28,9 @@
         <select name="select" id="opciones">
             <option>All</option>
             <option value="Chile">Chile</option>
-            <option value="Indonesia">Indonesia</option>
-            <option value="Japan">Japan</option>
-            <option value="Philippines">Philippines</option>
         </select>
         <!--Primero vamos a buscar la versión más reciente de jQuery-->
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <!--Y ahora podemos usarlo-->
         <script>
             $(function () {
@@ -55,12 +47,6 @@
                         //algunas alternativas de contenido para la variable articuloTipo
                         if (temblor.properties.place.includes("Chile")) {
                             articuloTipo = '<article class="cl">';
-                        } else if (temblor.properties.place.includes("Indonesia")) {
-                            articuloTipo = '<article class="in">';
-                        } else if (temblor.properties.place.includes("Japan")) {
-                            articuloTipo = '<article class="jp">';
-                        } else if (temblor.properties.place.includes("Philippines")) {
-                            articuloTipo = '<article class="ph">';
                         } else {
                             articuloTipo = '<article class="etc">';
                         }
@@ -73,18 +59,9 @@
                         valor = $("select").val();
                         if (valor == "Chile") {
                             $(".cl").fadeTo("slow", 1);
-                            $(".jp, .in, .ph, .etc").fadeTo("slow", 0.1);
-                        } else if (valor == "Indonesia") {
-                            $(".in").fadeTo("slow", 1);
-                            $(".cl, .jp, .ph, .etc").fadeTo("slow", 0.1);
-                        } else if (valor == "Japan") {
-                            $(".jp").fadeTo("slow", 1);
-                            $(".cl, .in, .ph, .etc").fadeTo("slow", 0.1);
-                        } else if (valor == "Philippines") {
-                            $(".ph").fadeTo("slow", 1);
-                            $(".cl, .in, .jp,.etc").fadeTo("slow", 0.1);
+                            $(".etc").fadeTo("slow", 0.1);
                         } else {
-                            $(".cl, .in, .jp, .ph, .etc").fadeTo("slow", 1);
+                            $(".cl, .etc").fadeTo("slow", 1);
                         }
                     });
                 }); // cierro $.getJSON((){});
