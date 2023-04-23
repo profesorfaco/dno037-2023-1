@@ -55,7 +55,7 @@ Considerando los días **miércoles** entre 8 de marzo y 28 de junio, resulta **
 
 [Clase 06 → 12/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-06) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
-[Clase 07 → 19/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-07) → HTML5 + CSS3 + otras bibliotecas de JS
+[Clase 07 → 19/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-07) → HTML5 + CSS3 + otras bibliotecas de JS ✓
 
 **[Clase 08 → 26/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-08) → Evaluación Nº2**
 
