@@ -82,9 +82,9 @@ Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clase
 
 Esta modalidad NO aplica en:
 
-- [Clase 04](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04) → Evaluación Nº1
+- [Clase 04](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04) → Evaluación Nº1 → https://cursos.canvas.uc.cl/courses/53610/discussion_topics/580262
 
-- [Clase 08](https://github.com/profesorfaco/dno037-2023/tree/main/clase-08) → Evaluación Nº2
+- [Clase 08](https://github.com/profesorfaco/dno037-2023/tree/main/clase-08) → Evaluación Nº2 → https://cursos.canvas.uc.cl/courses/53610/discussion_topics/600636
 
 - [Clase 13](https://github.com/profesorfaco/dno037-2023/tree/main/clase-13) → Evaluación Nº3
 
