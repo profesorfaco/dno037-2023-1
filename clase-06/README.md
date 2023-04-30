@@ -157,7 +157,7 @@ El ejercicio completo puede ser evaluado con:
 
 - **1 punto** → logrado.
 
-El ejercicio medianamente logrado es evaluado con 0,5 punto.
+El ejercicio medianamente logrado es evaluado con 0,5 punto. Un intento es evaluado con 0,25 punto.
 
 - - - - - - - - - - - -
 
