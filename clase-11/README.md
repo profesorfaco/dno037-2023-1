@@ -38,9 +38,8 @@ El ejercicio completo puede ser evaluado con:
 
 - **1 punto** → logrado.
 
-- **2 puntos** → logrado, con aporte descatado.
+El ejercicio medianamente logrado es evaluado con 0,5 punto.
 
-El ejercicio incompleto es evaluado con 0 punto.
 
 - - - - - - - 
 
