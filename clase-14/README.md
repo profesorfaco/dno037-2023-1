@@ -8,21 +8,27 @@ Hoy comienzan a trabajar en el **diseño y desarrollo, autónomo, de su primer s
 
 - Prototipo avanzado de aplicación web, debe implementarse en línea con dominio ajeno y acceso restringido con clave.
 
-Antes de seguir, conviene leer: 
+Antes de seguir, onviene ver estos videos: 
 
-- [Configurar GitHub Pages para usar dominios.cl](https://ggerena.medium.com/configurar-github-pages-para-usar-dominios-cl-13c1a644699f)
-
-- [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
-
-Y conviene ver parte de estos videos: 
+- [Cómo Configurar Tu Dominio Con GITHUB PAGES 2021 | Paso a Paso | Sin Morir en el Intento](https://youtu.be/rD8KoCn_nJc)
 
 - [Hosteando tu sitio en Github Pages](https://www.youtube.com/watch?v=wyRfN5oLzx4&t=155s)
 
 - [Hosting gratuito con GitHub Pages y dominio personalizado](https://www.youtube.com/watch?v=nbUR1jzVI5g&t=328s)
 
+O leer: 
+
+- [Configurar GitHub Pages para usar dominios.cl](https://ggerena.medium.com/configurar-github-pages-para-usar-dominios-cl-13c1a644699f)
+
+- [Reglamentación para el funcionamiento del Registro de Nombres del Dominio .CL](https://www.nic.cl/normativa/reglamentacion.html)
+
 **El sitio web profesional o prototipo avanzado de aplicación web puede ser un autoencargo o un encargo. Generalmente el autoencargo es un portafolio de diseño, y el encargo atiende las necesidades comunicacionales de una empresa**.
 
-:rotating_light:	**RECOMENDACIÓN IMPORTANTE**  :rotating_light:	Pueden enfrentar el (auto)encargo de tienda en línea como vitrina de productos o como prototipo avanzado de aplicación web; para resolverlo como tienda en línea prefieran otra instancia, distinta de este trabajo. En otra instancia usted podrá explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, transacción, distribución, etc.
+:rotating_light:	**DOS RECOMENDACIONES IMPORTANTES**  :rotating_light:	
+
+Pueden trabajar en **una tienda en línea como vitrina de productos o como prototipo avanzado de aplicación web**; para resolverlo como tienda en línea prefieran otra instancia, distinta de este trabajo. En otra instancia usted podrá explorar y aprovechar las herramientas que apoyan a éstas tiendas con sistemas de catálogo, transacción, distribución, etc.
+
+Pueden trabajar en **una nueva versión de sitios web que ya esté en línea. La condición de entrega en tal caso es la publicación de su trabajo dentro de una carpeta**, para reemplazar el original cuando tenga el visto bueno de la contraparte real. Por ejemplo, si el sitio está en la-empresa.cl su entrega tendría que hacerse en la-empresa.cl/mi-carpeta
 
 - - - - - - - - - - 
 
