@@ -12,11 +12,9 @@ Antes de seguir, onviene ver estos videos:
 
 - [Cómo Configurar Tu Dominio Con GITHUB PAGES 2021 | Paso a Paso | Sin Morir en el Intento](https://youtu.be/rD8KoCn_nJc)
 
-- [Hosteando tu sitio en Github Pages](https://www.youtube.com/watch?v=wyRfN5oLzx4&t=155s)
-
 - [Hosting gratuito con GitHub Pages y dominio personalizado](https://www.youtube.com/watch?v=nbUR1jzVI5g&t=328s)
 
-O leer: 
+También leer: 
 
 - [Configurar GitHub Pages para usar dominios.cl](https://ggerena.medium.com/configurar-github-pages-para-usar-dominios-cl-13c1a644699f)
 
