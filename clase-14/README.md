@@ -14,7 +14,7 @@ Hoy comienzan a trabajar en el **diseño y desarrollo, autónomo, de su primer s
 
 2. Pueden trabajar en **una nueva versión de sitios web que ya esté en línea. La condición de entrega en tal caso es la publicación de su trabajo dentro de una carpeta**. Por ejemplo, si el sitio está en la-empresa.cl su entrega tendría que hacerse en la-empresa.cl/mi-carpeta
 
-:rotating_light: Antes de seguir, conviene ver estos videos: 
+:rotating_light: Antes de seguir :rotating_light: conviene ver estos videos: 
 
 - [Cómo Configurar Tu Dominio Con GITHUB PAGES 2021 | Paso a Paso | Sin Morir en el Intento](https://youtu.be/rD8KoCn_nJc)
 
