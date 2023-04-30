@@ -13,8 +13,7 @@ Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 | Pendiente hasta el 31/05/2023 | 1.0 |
 | Pendiente hasta el 31/05/2023 | 1.0 |
 | Pendiente hasta el 31/05/2023 | 1.0 |
-| Pendiente hasta el 31/05/2023 | 1.0 |
-| Puntos acumulados previamente | 2.0 |
+| Puntos acumulados previamente | 3.0 |
 | Punto base | 1.0 |
 | NOTA  | 7.0 |
 
