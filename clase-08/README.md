@@ -22,6 +22,12 @@ Cada versión debe ajustarse a la siguiente pauta de cotejo:
 
 ESTÁ PREVISTO RESOLVER EL SITIO WEB CON JQUERY. PERO PODRÍA RESOLVERSE TODO CON JAVASCRIPT A SECAS, SIN BIBLIOTECAS. EN CASO USTED LO HAGA DE ESTA MANERA, NO TIENE 1 SINO 2 PUNTOS DE BASE.
 
+### Para entregar:
+
+**Ingrese al foro de Canvas y deje su respuesta**: https://cursos.canvas.uc.cl/courses/53610/discussion_topics/600636
+
+Como respuesta a lo ingresado tendrá la calificación ajustada a la pauta.
+
 - - - - - - - - - - - - -
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-07) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-10)
