@@ -34,11 +34,7 @@ El ejercicio completo puede ser evaluado con:
 
 - **0 punto** → no logrado.
 
-- **1 punto** → logrado.
-
-- **2 puntos** → logrado con aporte destacado.
-
-El ejercicio incompleto es evaluado con 0 punto.
+- **0,5 punto** → logrado.
 
 - - - - - - -
 
