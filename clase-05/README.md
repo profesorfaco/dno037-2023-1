@@ -36,6 +36,28 @@ El ejercicio completo puede ser evaluado con:
 
 - **0,5 punto** → logrado.
 
+|	N°	|	Apellidos	|	GitHub Pages	|
+|	1	|	ANAIZ SANTANDER	|	https://majoanaiz.github.io/clase_05/	|
+|	2	|	BOFARULL PARDO	|	https://jbofarull.github.io/clase-5/	|
+|	3	|	BRAVO FREDERICK	|	https://tbravofr.github.io/Clase-5/	|
+|	4	|	CASTELLI YANKOVIC	|	—	|
+|	5	|	CASTILLO ESPEJO	|	https://emicastilloe.github.io/clase-05-este-si	|
+|	6	|	CHACÓN GONZÁLEZ	|	https://josefinachag.github.io/clase-05-dno/	|
+|	7	|	IBÁÑEZ WRAGG	|	—	|
+|	8	|	MOLIN AGUAD	|	https://javimolin-uc.github.io/CLASE-05/	|
+|	9	|	MONTALBETTI FAHRENKROG	|	https://trini-mf.github.io/clase-05-dnm/	|
+|	10	|	MONTERO ALCALDE	|	https://mjmonteroa.github.io/Clase-05/	|
+|	11	|	MUÑOZ GARCÍA	|	https://madumunoz.github.io/DNMedios-clase05/	|
+|	12	|	NIEDMANN LIPSKI	|	—	|
+|	13	|	PEREZ QUISPE	|	—	|
+|	14	|	ROMÁN SÁNCHEZ	|	https://romancito-psd.github.io/clase-05/	|
+|	15	|	RUIZ ARDILES	|	https://daniruiza.github.io/clase-05/xd	|
+|	16	|	SCHLEGEL LÓPEZ	|	https://aleschlegel.github.io/clase-05/	|
+|	17	|	SEURA PASTENE	|	—	|
+|	18	|	URIBE VÁSQUEZ	|	https://catalinauribev.github.io/clase-05	|
+|	19	|	VARGAS VÉLIZ	|	https://vakku3.github.io/Clase_005/	|
+|	20	|	VILDÓSOLA ESPALIAT	|	https://florenciavildosolae.github.io/dnm-clase05/	|
+
 - - - - - - -
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-04) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-06)
