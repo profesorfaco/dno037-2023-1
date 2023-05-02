@@ -37,6 +37,7 @@ El ejercicio completo puede ser evaluado con:
 - **0,5 punto** → logrado.
 
 |	N°	|	Apellidos	|	GitHub Pages	|
+|:-----:|:----------------|:-------------|
 |	1	|	ANAIZ SANTANDER	|	https://majoanaiz.github.io/clase_05/	|
 |	2	|	BOFARULL PARDO	|	https://jbofarull.github.io/clase-5/	|
 |	3	|	BRAVO FREDERICK	|	https://tbravofr.github.io/Clase-5/	|
