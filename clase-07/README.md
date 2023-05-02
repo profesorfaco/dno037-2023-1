@@ -102,6 +102,29 @@ El ejercicio completo puede ser evaluado con:
 
 El ejercicio medianamente logrado es evaluado con 0,25 punto.
 
+|	N°	|	Apellidos	|	GitHub Pages	|
+|:-------:|:--------------|:----------------|
+|	1	|	ANAIZ SANTANDER	|	https://majoanaiz.github.io/clase_07/	|
+|	2	|	BOFARULL PARDO	|	https://jbofarull.github.io/clase-7	|
+|	3	|	BRAVO FREDERICK	|	https://tbravofr.github.io/Clase-7/	|
+|	4	|	CASTELLI YANKOVIC	|	—	|
+|	5	|	CASTILLO ESPEJO	|	—	|
+|	6	|	CHACÓN GONZÁLEZ	|	https://josefinachag.github.io/clase-07/	|
+|	7	|	IBÁÑEZ WRAGG	|	—	|
+|	8	|	MOLIN AGUAD	|	https://javimolin-uc.github.io/CLASE-07/	|
+|	9	|	MONTALBETTI FAHRENKROG	|	https://trini-mf.github.io/clase-07-dnm/	|
+|	10	|	MONTERO ALCALDE	|	https://mjmonteroa.github.io/Clase-07/index.html	|
+|	11	|	MUÑOZ GARCÍA	|	https://madumunoz.github.io/DNMedios-clase07/	|
+|	12	|	NIEDMANN LIPSKI	|	https://fniedmann.github.io/clase_07/	|
+|	13	|	PEREZ QUISPE	|	—	|
+|	14	|	ROMÁN SÁNCHEZ	|	https://romancito-psd.github.io/clase-07/	|
+|	15	|	RUIZ ARDILES	|	https://daniruiza.github.io/clase-07/	|
+|	16	|	SCHLEGEL LÓPEZ	|	https://aleschlegel.github.io/clase-07/	|
+|	17	|	SEURA PASTENE	|	—	|
+|	18	|	URIBE VÁSQUEZ	|	https://catalinauribev.github.io/clase-07/	|
+|	19	|	VARGAS VÉLIZ	|	https://vakku3.github.io/Clase_07/	|
+|	20	|	VILDÓSOLA ESPALIAT	|	https://florenciavildosolae.github.io/dnm-clase07/	|
+
 - - - - - - - -
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-06) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-08)
