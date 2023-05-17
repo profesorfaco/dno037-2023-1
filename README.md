@@ -59,9 +59,9 @@ Considerando los días **miércoles** entre 8 de marzo y 28 de junio, resulta **
 
 **[Clase 08 → 26/04/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-08) → Evaluación Nº2 ✓**
 
-Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clases; las evaluaciones académicas quedarán suspendidas entre el martes 2 y el lunes 8 de mayo inclusive)
+Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clases; las evaluaciones académicas quedarán suspendidas entre el martes 2 y el lunes 8 de mayo inclusive) ✓
 
-[Clase 10 → 10/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-10) → Bootstrap v5.3 (el jueves 11 de mayo es el último plazo para realizar el retiro de un curso de la carga académica semestral)
+[Clase 10 → 10/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-10) → Bootstrap v5.3 (el jueves 11 de mayo es el último plazo para realizar el retiro de un curso de la carga académica semestral) ✓
 
 [Clase 11 → 17/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-11) → Bootstrap v5.3
 
