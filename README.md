@@ -63,7 +63,7 @@ Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clase
 
 [Clase 10 → 10/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-10) → Bootstrap v5.3 (el jueves 11 de mayo es el último plazo para realizar el retiro de un curso de la carga académica semestral) ✓
 
-[Clase 11 → 17/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-11) → Bootstrap v5.3
+[Clase 11 → 17/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-11) → Bootstrap v5.3 ✓
 
 [Clase 12 → 24/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-12) → Bootstrap v5.3
 
