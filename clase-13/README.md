@@ -4,7 +4,7 @@
 
 ### Evaluación Nº3
 
-Descargue el [Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio). Elimine del `index.html` las secciones que están marcadas con los comentarios: *About*, *Callout* y *Call to Action*. Elimine también todos los vínculos que se hacen inútiles con el descarte de tales secciones (revise menú y botones).
+Descargue el [Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio). Elimine del `index.html` las secciones que son antecedidas con los comentarios *About*, *Callout* y *Call to Action*. Elimine también la división antecedida con el comentario *Map* y todos los vínculos que se hacen inútiles con el descarte de secciones y división eliminadas (revise menú y botones).
 
 Continúe con las modificaciones atendiendo a la siguiente pauta de evaluación:
 
