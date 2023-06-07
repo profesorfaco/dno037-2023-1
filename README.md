@@ -67,7 +67,7 @@ Clase 09 → 03/05/2023 → Receso de docencia bimestral (se suspenden las clase
 
 [Clase 12 → 24/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-12) → Bootstrap v5.3 ✓
 
-**[Clase 13 → 31/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-13) → Evaluación Nº3**
+**[Clase 13 → 31/05/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-13) → Evaluación Nº3 ✓**
 
 [Clase 14 → 07/06/2023](https://github.com/profesorfaco/dno037-2023/tree/main/clase-14) → Diseño y desarrollo
 
