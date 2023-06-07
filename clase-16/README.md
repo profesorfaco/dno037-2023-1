@@ -24,8 +24,6 @@ La evaluación de LightHubse depende de números que entregue la máquina, tranf
 
 **Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 28 de junio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
 
-Sin su pre-evaluación, pierde la posibilidad de hacer ajustes, y su promedio se cierra con una cuarta nota que considerará los puntos obtenidos en clases 14, 15 y 16 (respectivamente: `README.md`, Style Guide y dominio definitivo configurado con su `index.html` provisorio).
-
 - - - - - - - 
 
 ###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-15) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17)
