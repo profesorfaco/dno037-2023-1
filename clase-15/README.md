@@ -31,7 +31,7 @@ Adelantando la pauta de la evaluación Nº4, con atención a la evaluación con 
 | Best Practices | 1.0 |
 | SEO | 1.0 |
 | Punto base | 1.0 |
-| **Nota** | **1.0** |
+| **Nota** | **7.0** |
 
 Lo de `README.md` y aproximación funcional depende del logro de nivel curso, con énfasis en lo cualitativo.
 
