@@ -48,4 +48,4 @@ La evaluación de LightHubse depende de números que entregue la máquina, tranf
 
 - - - - - - - 
 
-###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-16)
+###### [← CLASE ANTERIOR](https://github.com/profesorfaco/dno037-2023/tree/main/clase-14) — [SIGUIENTE CLASE →](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17)
