@@ -87,7 +87,7 @@ Esta modalidad NO aplica en:
 
 - [Clase 08](https://github.com/profesorfaco/dno037-2023/tree/main/clase-08) → Evaluación Nº2 → https://cursos.canvas.uc.cl/courses/53610/discussion_topics/600636
 
-- [Clase 13](https://github.com/profesorfaco/dno037-2023/tree/main/clase-13) → Evaluación Nº3
+- [Clase 13](https://github.com/profesorfaco/dno037-2023/tree/main/clase-13) → Evaluación Nº3 → https://cursos.canvas.uc.cl/courses/53610/discussion_topics/619289
 
 - [Clase 17](https://github.com/profesorfaco/dno037-2023/tree/main/clase-17) → Pre-evaluación Nº4
 
