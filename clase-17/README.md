@@ -22,7 +22,7 @@ La evaluación de LightHubse depende de números que entregue la máquina, tranf
 - Best Practices → 1 punto en verde | 0.5 en amarillo | 0 en rojo
 - SEO → 1 punto en verde | 0.5 en amarillo | 0 en rojo
 
-**Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 28 de junio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
+**Con su pre-evaluación, cada estudiante tendrá la posibilidad de hacer modificaciones dentro de una semana y volver a presentar al comienzo de la próxima clase (10.00 hrs. del miércoles 3 de julio) para una evaluación definitiva**. También tendrá la posibilidad de quedarse con la nota de pre-evaluación y solicitar cierre de promedio.
 
 - - - - - - - 
 
